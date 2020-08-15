@@ -1,33 +1,43 @@
 import React from "react";
 import "./App.scss";
 import Logo from "./assets/images/logo/logo-light.svg";
-
+import shark from "./assets/images/1.jpg";
 function App() {
   return (
     <main className="main">
       <section className="container container__presentation">
-        <picture>
-          <img src={Logo} alt="" />
-        </picture>
-        <h1 className="main-title">
-          Oi! eu sou a <br /> Beatriz Paulo.
-        </h1>
-        <p>
-          Sou uma UX e Visual Designer do Rio com um perfil mão na massa. Busco
-          sempre entender bem as necessidades e desejos das pessoas para criar
-          conceitos, gerar e testar ideias.
-        </p>
-        <nav>
-          <a className="" href="e-mail">
-            Email
-          </a>
-          <a className="" href="linkedin">
-            LinkedIn
-          </a>
-          <a className="" href="github">
-            Github
-          </a>
-        </nav>
+        <div className="content">
+          <div className="left">
+            <picture>
+              <img src={Logo} alt="" />
+            </picture>
+            <h1>
+              Oi! eu sou a <br /> Beatriz Paulo.
+            </h1>
+            <p>
+              Sou uma UX e Visual Designer do Rio com um perfil mão na massa.
+              Busco sempre entender bem as necessidades e desejos das pessoas
+              para criar conceitos, gerar e testar ideias.
+            </p>
+
+            <nav>
+              <a className="" href="e-mail">
+                Email
+              </a>
+              <a className="" href="linkedin">
+                LinkedIn
+              </a>
+              <a className="" href="github">
+                Github
+              </a>
+            </nav>
+          </div>
+
+          <div className="right">
+            <img src={shark} alt="" />
+            <img src={shark} alt="" />
+          </div>
+        </div>
       </section>
       <section className="container">
         <h1 className="title-section">Projetos</h1>
