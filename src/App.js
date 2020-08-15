@@ -1,25 +1,133 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import Logo from "./assets/images/logo/logo-light.svg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <main className="main">
+      <section className="container container__presentation">
+        <picture>
+          <img src={Logo} alt="" />
+        </picture>
+        <h1 className="main-title">
+          Oi! eu sou a <br /> Beatriz Paulo.
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Sou uma UX e Visual Designer do Rio com um perfil mão na massa. Busco
+          sempre entender bem as necessidades e desejos das pessoas para criar
+          conceitos, gerar e testar ideias.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <nav>
+          <a className="" href="e-mail">
+            Email
+          </a>
+          <a className="" href="linkedin">
+            LinkedIn
+          </a>
+          <a className="" href="github">
+            Github
+          </a>
+        </nav>
+      </section>
+      <section className="container">
+        <h1 className="title-section">Projetos</h1>
+        <article className="container__projects">
+          <div className="top-left-item">
+            {/* <img src="https://via.placeholder.com/250" alt="" className="src" /> */}
+          </div>
+          <div className="bottom-left-item">
+            {/* <img src="https://via.placeholder.com/250" alt="" className="src" /> */}
+          </div>
+          <div className="center-item">
+            {/* <img src="https://via.placeholder.com/500" alt="" className="src" /> */}
+          </div>
+          <div className="top-right-item">
+            {/* <img src="https://via.placeholder.com/250" alt="" className="src" /> */}
+          </div>
+          <div className="bottom-right-item">
+            {/* <img src="https://via.placeholder.com/250" alt="" className="src" /> */}
+          </div>
+        </article>
+      </section>
+      <section className="container container__experiences">
+        <h1 className="title-section">Experiência</h1>
+        <div className="content">
+          <aside>
+            <h1>Educação</h1>
+
+            <ul>
+              <li>
+                <h2>Universidade Federal do Rio de Janeiro</h2>
+                <p>Bacharel em Desenho Industrial</p>
+              </li>
+              <li>
+                <h2>
+                  PUC/Rio/Laboratório de Ergodesign e Usabilidade de interfaces
+                  (LEUI)
+                </h2>
+                <p>Mestrado em Design (em curso)</p>
+              </li>
+            </ul>
+          </aside>
+          <article>
+            <section>
+              <h1>IBM Research</h1>
+              <h2>Estágio em UX Design, 2018-2020</h2>
+              <p>
+                IBM Research é o laboratório de pesquisa da IBM, focado em
+                desenvolver soluções em AI para diversas indústrias. Como
+                estagiária de Design, atuei entendendo entregáveis de UX (user
+                journeys, mapas de empatia) para projetar interfaces de várias
+                aplicações para empresas de petróleo e gás. Trabalhei junto com
+                desenvolvedores front-end para conceber e implementar
+                resultados. Também atuei com UX Researchers em entrevistas,
+                testes de usabilidade e em workshops de design thinking
+                diretamente com usuários
+              </p>
+            </section>
+
+            <section>
+              <h1>Ministério Público do Estado do Rio de Janeiro</h1>
+              <h2>Estágio em Design, 2016-2018</h2>
+              <p>
+                No MPRJ, trabalhei na Gerência de Portal e Programação Visual
+                com criação de cartazes, revistas e cartilhas para diversas
+                iniciativas. Também trabalhei junto a desenvolvedores fornecendo
+                assets para interfaces da intranet e portal do MPRJ
+              </p>
+            </section>
+          </article>
+        </div>
+        <h1 className="contact-invite">Vamos conversar?</h1>
+        <div className="button-container">
+          <button className="send-email" type="button">
+            Manda um e-mail
+          </button>
+        </div>
+      </section>
+      <section className="container container__footer">
+        <footer className="footer">
+          <div>
+            <h1 className="footer__title">
+              Onde mais <br /> me encontrar
+            </h1>
+            <ul>
+              <li>Meu Github</li>
+              <li>Meu LinkedIn</li>
+              <li>Meu Instagram de arte digital</li>
+            </ul>
+          </div>
+          <div>
+            <h1 className="footer__title">Feito por</h1>
+            <p>Design por Beatriz Paulo</p>
+            <p>Desenvolvido por Beatriz de Paulo e Leonardo Gonçalves</p>
+            <picture>
+              <img src={Logo} alt="" />
+            </picture>
+          </div>
+        </footer>
+      </section>
+    </main>
   );
 }
 
