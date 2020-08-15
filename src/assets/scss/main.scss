@@ -1,5 +1,12 @@
 @import "./variables.scss";
 
+ul {
+  padding-left: 0em;
+  li {
+    list-style-type: none;
+  }
+}
+
 .main-title {
   font-family: "AbrilLatface";
   font-size: 3rem;
@@ -54,6 +61,7 @@
 
 .container__projects {
   width: 100%;
+  max-width: 1024px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -89,21 +97,57 @@
 }
 
 .container__experiences {
+  margin-bottom: 7em;
   .content {
     display: flex;
     flex-direction: row;
     aside {
-      flex: 1/3;
+      font-family: "Lato";
       padding: 1em;
-      ul {
-        padding-left: 1em;
-        li {
-          list-style-type: none;
+      min-width: 300px;
+      h1 {
+        font-family: "AbrilLatFace";
+        color: $accent-dark;
+        font-size: 2em;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 3rem;
+        h2 {
+          font-family: "Lato";
+          color: $main;
+          margin-bottom: 0;
+          padding-bottom: 0.25em;
+        }
+        p {
+          margin-top: 0;
+          padding-top: 0;
         }
       }
     }
     article {
-      padding: 1em;
+      padding-left: 3em;
+      max-width: 70%;
+      section {
+        margin-bottom: 3em;
+        h1 {
+          font-family: "AbrilLatFace";
+          color: $main;
+          font-size: 1.5rem;
+          padding: 0;
+          margin: 0;
+        }
+        h2 {
+          font-size: 1rem;
+          font-weight: 400;
+          padding: 0;
+          margin: 0;
+        }
+        p {
+          font-weight: 300;
+        }
+      }
     }
   }
 
@@ -126,7 +170,7 @@
     font-family: "Lato";
     font-size: 1rem;
     background-color: $accent-dark;
-    color: white;
+    color: $white;
     border: none;
   }
 }
@@ -135,6 +179,26 @@
   background-color: $main-dark;
   color: $background-white;
   .footer {
+    p {
+      font-family: "Lato";
+      font-weight: 800;
+    }
+
+    li {
+      margin-top: 1.25rem;
+      font-family: "Lato";
+      font-weight: 800;
+    }
+
+    picture {
+      display: flex;
+      justify-content: flex-end;
+      img {
+        margin-top: 1.5rem;
+        width: 30%;
+      }
+    }
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -142,14 +206,6 @@
     .footer__title {
       font-family: "AbrilLatface";
       font-size: 2rem;
-    }
-
-    ul {
-      padding-left: 0;
-      li {
-        list-style-type: none;
-        margin-top: 0.5rem;
-      }
     }
   }
 }

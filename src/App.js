@@ -57,7 +57,7 @@ function App() {
 
             <ul>
               <li>
-                <h2>Universidade Federal do Rio de Janeiro</h2>
+                <h2>Universidade Federal Fluminense</h2>
                 <p>Bacharel em Desenho Industrial</p>
               </li>
               <li>
@@ -119,8 +119,17 @@ function App() {
           </div>
           <div>
             <h1 className="footer__title">Feito por</h1>
-            <p>Design por Beatriz Paulo</p>
-            <p>Desenvolvido por Beatriz de Paulo e Leonardo Gonçalves</p>
+            <ul>
+              <li>
+                <p>Design por Beatriz Paulo</p>
+              </li>
+              <li>
+                <p>
+                  Desenvolvido por Beatriz de Paulo e <br /> Leonardo Gonçalves
+                </p>
+              </li>
+            </ul>
+
             <picture>
               <img src={Logo} alt="" />
             </picture>
