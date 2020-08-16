@@ -24,10 +24,20 @@ function App() {
               <a className="" href="e-mail">
                 Email
               </a>
-              <a className="" href="linkedin">
+              <a
+                className=""
+                href="https://www.linkedin.com/in/bia-paulo/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 LinkedIn
               </a>
-              <a className="" href="github">
+              <a
+                className=""
+                href="https://github.com/Bia96"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 Github
               </a>
             </nav>
@@ -122,9 +132,33 @@ function App() {
               Onde mais <br /> me encontrar
             </h1>
             <ul>
-              <li>Meu Github</li>
-              <li>Meu LinkedIn</li>
-              <li>Meu Instagram de arte digital</li>
+              <li>
+                <a
+                  href="https://github.com/Bia96"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Meu Github
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/bia-paulo/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Meu LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/biapart/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Meu Instagram de arte digital
+                </a>
+              </li>
             </ul>
           </div>
           <div>

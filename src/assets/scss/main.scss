@@ -1,5 +1,9 @@
 @import "./variables.scss";
 
+* {
+  box-sizing: border-box;
+}
+
 ul {
   padding-left: 0em;
   li {
@@ -200,6 +204,15 @@ ul {
   background-color: $main-dark;
   color: $background-white;
   .footer {
+    a {
+      font-family: "Lato";
+      font-weight: 800;
+      color: $white;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
     p {
       font-family: "Lato";
       font-weight: 800;
