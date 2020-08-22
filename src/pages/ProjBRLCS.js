@@ -22,21 +22,24 @@ export const BRLCS = () => {
             <h1>O problema</h1>
             <h2>Criando um "Design System" leve e não-intrusivo para projetos complexos</h2>
             <p>
-            No IBM Research, trabalhei junto a outros designers e especialistas para desenvolver interfaces e fluxos para projetos de computação cognitiva. Meus maiores desafios foram projetar UIs que comunicavam processos complexos, como analisar o risco de um prospecto de exploração de petróleo, ou descobrir as características de uma região de cubo sísmico. Participei diretamente de projetos com diversos clientes. Um desses projetos foi o
-            Subsurface Interpretation Advisor, desenvolvido em parceria com a empresa portuguesa Galp Energia.
+            Enquanto eu fazia a revisão do HTML e CSS de páginas novas e antigas dos projetos que trabalhava no IBM Research, percebi que haviam algumas inconsistências em termos de design e componentes
+            que poderiam estar sendo corrigidas com o uso de uma biblioteca de estilos comum. Depois de alguns anos de um projeto em curso, nós notamos que apesar de tarefas e fluxos se repetirem no sistema, haviam diversas inconsistências visuais para significados iguais. Como vários designers e desenvolvedores entraram e deixaram o projeto nesse tempo, 
+            várias ideias e métodos estavam sendo usados para construir conceitos semelhantes. Por isso, trouxe para o time a ideia de reformular os estilos que já usávamos e criar uma nova biblioteca mais adaptada aos projetos atuais.
             </p>
 
            <p>
-           O SIA é um sistema baseado em AI para acelerar a interpretação sísmica na indústria de óleo e gás. Os principais usuários são geólogos e geofísicos, que analisam uma série de dados (anotações, artigos científicos, mapas estratigráficos, cubos sísmicos, cases anteriores) para decidir o futuro de prospectos para exploração de óleo e gás. O sistema ajuda os profissionais a agregar esses dados, e fornece
-           sugestões e evidências. O conhecimento é agregado e construído ao longo do tempo a cada novo projeto.
+           Buscando acelerar e criar consistência no design e desenvolvimento front-end do nosso time, decidimos
+           construir uma biblioteca em Sketch + HTML + CSS para os nossos projetos.
+
            </p>
 
            <div>
           {<img src="https://via.placeholder.com/750" alt="" className="src" />}
            </div>
 
-           <p>Quando entrei na IBM como estagiária, o projeto estava na fase de implementação e iterações. Meu papel no time foi o de rever e melhorar fluxos que já existiam, e integrá-los a features novas. Eu analisei entregáveis de UX como mapas de empatia e user journeys para extrair requisitos e ideias para protótipos de UI. Aqui, o desafio foi traduzir processos complexos que agregam muitos dados em
-             interfaces simples, intuitivas, que suportassem a interpretação mantendo a coerência e boa usabilidade. </p>
+           <p>O BRL-CS precisava ser, antes de tudo, não-intrusivo. As aplicações que construímos no laboratório são baseadas em informações e dados complexos, complexidade que se traduz nas interfaces. Os elementos de UI teriam que dar suporte a esses processos e guiar o usuário, sem desviar a
+             atenção dos elementos principais, criar poluição visual ou mensagens confusas. Por isso, decidimos adotar uma única accent color, junto com as cores operacionais (Sucesso, erro, info, alerta) e um set de cores neutras. Todos os elementos não-interativos seriam brancos ou em cinzas neutros. O BRL-CS foi projetado para ser escalável, atômico e requerer o mínimo de classes 
+             CSS para implementar elementos básicos, como cards, barras laterais, navegações, entre outros.</p>
              <div>
           {<img src="https://via.placeholder.com/750" alt="" className="src" />}
            </div>
