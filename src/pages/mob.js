@@ -5,7 +5,7 @@ export const Mob = () => {
   return (
     <main className="main">
       <section className="container container__fullproject">
-        <h1>SIA</h1>
+        <h1>Mob</h1>
         <div className="content">
           <aside className="project-data">
             <h2>Sobre o projeto</h2>
