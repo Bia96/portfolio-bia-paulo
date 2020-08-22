@@ -22,7 +22,7 @@ export const BRLCS = () => {
             <h1>O problema</h1>
             <h2>Criando um "Design System" leve e não-intrusivo para projetos complexos</h2>
             <p>
-            Enquanto eu fazia a revisão do HTML e CSS de páginas novas e antigas dos projetos que trabalhava no IBM Research, percebi que haviam algumas inconsistências em termos de design e componentes
+            Enquanto fazia a revisão do HTML e CSS de páginas novas e antigas dos projetos que trabalhava no IBM Research, percebi que haviam algumas inconsistências em termos de design e componentes
             que poderiam estar sendo corrigidas com o uso de uma biblioteca de estilos comum. Depois de alguns anos de um projeto em curso, nós notamos que apesar de tarefas e fluxos se repetirem no sistema, haviam diversas inconsistências visuais para significados iguais. Como vários designers e desenvolvedores entraram e deixaram o projeto nesse tempo, 
             várias ideias e métodos estavam sendo usados para construir conceitos semelhantes. Por isso, trouxe para o time a ideia de reformular os estilos que já usávamos e criar uma nova biblioteca mais adaptada aos projetos atuais.
             </p>
@@ -44,14 +44,16 @@ export const BRLCS = () => {
           {<img src="https://via.placeholder.com/750" alt="" className="src" />}
            </div>
            <p>
-           A cada nova feature ou iteração, meu processo começava estruturando os insights da fase de pesquisa com os usuários em intenções, prioridades e necessidades que iriam guiar o design da interface. Comecei transformando essas direções em conceitos rápidos em protótipos de papel ou no quadro. Dessa forma, conseguia rapidamente validar
-           os conceitos com o time antes de investir tempo em um protótipo complexo de alta fidelidade.
+           Meu primeiro passo foi procurar as inconsistências pelos projetos que já estávamos construindo. O maior projeto na época já era maduro o suficiente para apresentar vários fluxos, componentes e elementos de UI que já eram usados mas que não tinham uma padronização consistente. Depois de fazer um levantamento dos vários jeitos diferentes que os elementos eram criados, determinei alguns elementos que eram fundamentais na biblioteca e suas características (por exemplo, botões que poderiam ser cheios ou outline, dropdowns múltiplas, tooltips, elementos de formulário, entre outros). Seguindo os princípios do atomic design, os primeiros elementos a serem construídos foram as cores e tipografia, logo depois formas básicas, para por fim padronizar cards, modais e sidebars.
+
            </p>
 
-           <p>Quando sei que estamos no caminho certo, começo a experimentar com os componentes de UI que já eram usados em outras partes do projeto. Como essa aplicação já estava implementada, precisei considerar tudo que já era feito de linguagem visual e código antes de criar as telas. Usei o Sketch e libraries de estilo para fazer protótipos de alta fidelidade, e participei junto aos desenvolvedores front-end das implementações.</p>
            <div>
           {<img src="https://via.placeholder.com/750" alt="" className="src" />}
            </div>
+
+           <p>Uma vez completamente projetado, a biblioteca foi testada por algumas semanas apenas como uma library do Sketch, com os designers. Nesse pequeno tempo, já pudemos melhorar bastante o projeto, incluindo/removendo elementos e mudando regras. Depois, começamos a desenvolver o código CSS e HTML, sempre em alinhamento com o design. Queríamos que os devs pudessem implementar as interfaces usando o máximo dos nossos tokens, sem recorrer a “atalhos” ou modificando a library para fazer uma interface. Usamos Sass para facilitar a construção da library, e eu desenvolvi uma página de documentação que concentrava o código-base e o design de cada elemento do BRL-CS. O sistema começou a ser mantido de forma colaborativa pelos designers e devs do time, 
+             crescendo e evoluindo para continuar útil e consistente.</p>
            
           </section>
         </article>
