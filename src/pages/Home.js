@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
-import heroA from "../assets/images/mob-hero-1.png";
-import heroB from "../assets/images/tcc-1.png";
+import HeroA from "../assets/images/mob-hero-1.png";
+import HeroB from "../assets/images/tcc-1.png";
 
 export const Home = () => {
   return (
