@@ -6,20 +6,21 @@ export const BRLCS = () => {
     <main className="main">
 
     <section className="container container__fullproject">
-      <h1>SIA</h1>
+      <h1>BRL Common Styles</h1>
       <div className="content">
         <aside className= "project-data">
           <h2>Sobre o projeto</h2>
-          <p>O Subsurface Interpretation Advisor foi o projeto público que mais atuei dentro da IBM. Ao longo do meu período
-            de estágio, também trabalhei desde a pesquisa com usuários até a prototipagem de diversos outros projetos. O maior desafio foi: como capturar processos de tomada de decisão complexos
-            na indústria de óleo e gás, e construir interfaces que suportem esses processos para os usuários?
+          <p>O BRL Common Styles (BRL significa "Brazil Lab") foi uma biblioteca de estilos em Sketch e CSS criada para ser usada nos projetos internos do meu time e de outros no IBM Research.
+            Nesse projeto, eu participei desde o estudo inicial dos estilos existentes, passando pelo levantamento dos estilos que seriam criados, até a criação e implementação em HTML e CSS da biblioteca. Para 
+            fazer esse projeto, me inspirei junto ao time em Design Systems amplamente usados como o Material Design (Google), Lightning (Salesforce) e o Design System da IBM, o Carbon. Quando estagiei no IBM Research, o Carbon ainda era um sistema
+            dando seus primeiros passos. Para se adaptar às necessidades do nosso time naquele momento, vimos a necessidade criar em pouco tempo nosso próprio "Design System": leve, adaptável e pouco intrusivo, que se incorporasse sem esforço aos projetos que já existiam.
           </p>
         </aside>
 
         <article>
           <section>
             <h1>O problema</h1>
-            <h2>Estruturando e suportando decisões com AI na indústria de Óleo e Gás</h2>
+            <h2>Criando um "Design System" leve e não-intrusivo para projetos complexos</h2>
             <p>
             No IBM Research, trabalhei junto a outros designers e especialistas para desenvolver interfaces e fluxos para projetos de computação cognitiva. Meus maiores desafios foram projetar UIs que comunicavam processos complexos, como analisar o risco de um prospecto de exploração de petróleo, ou descobrir as características de uma região de cubo sísmico. Participei diretamente de projetos com diversos clientes. Um desses projetos foi o
             Subsurface Interpretation Advisor, desenvolvido em parceria com a empresa portuguesa Galp Energia.

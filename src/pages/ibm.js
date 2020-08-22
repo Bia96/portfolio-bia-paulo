@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
-import shark from "../assets/images/1.jpg";
+import IBM1 from "../assets/images/IBM1.png";
+import IBM2 from "../assets/images/IBM2.png";
+import IBM3 from "../assets/images/IBM3.png";
 
 export const BRLCS = () => {
   return (
@@ -37,18 +39,33 @@ export const BRLCS = () => {
 
            <p>Quando entrei na IBM como estagiária, o projeto estava na fase de implementação e iterações. Meu papel no time foi o de rever e melhorar fluxos que já existiam, e integrá-los a features novas. Eu analisei entregáveis de UX como mapas de empatia e user journeys para extrair requisitos e ideias para protótipos de UI. Aqui, o desafio foi traduzir processos complexos que agregam muitos dados em
              interfaces simples, intuitivas, que suportassem a interpretação mantendo a coerência e boa usabilidade. </p>
-             <div>
-          {<img src="https://via.placeholder.com/750" alt="" className="src" />}
-           </div>
+
            <p>
            A cada nova feature ou iteração, meu processo começava estruturando os insights da fase de pesquisa com os usuários em intenções, prioridades e necessidades que iriam guiar o design da interface. Comecei transformando essas direções em conceitos rápidos em protótipos de papel ou no quadro. Dessa forma, conseguia rapidamente validar
            os conceitos com o time antes de investir tempo em um protótipo complexo de alta fidelidade.
            </p>
 
-           <p>Quando sei que estamos no caminho certo, começo a experimentar com os componentes de UI que já eram usados em outras partes do projeto. Como essa aplicação já estava implementada, precisei considerar tudo que já era feito de linguagem visual e código antes de criar as telas. Usei o Sketch e libraries de estilo para fazer protótipos de alta fidelidade, e participei junto aos desenvolvedores front-end das implementações.</p>
+           <img src={IBM1} alt="" />
+
+           <p>Quando sei que estamos no caminho certo, começo a experimentar com os componentes de UI que
+             já eram usados em outras partes do projeto. Como essa aplicação já estava implementada,
+             precisei considerar tudo que já era feito de linguagem visual e código antes de criar as telas. 
+             Usei o Sketch e libraries de estilo para fazer protótipos de alta fidelidade, e participei junto
+              aos desenvolvedores front-end das implementações em HTML e CSS.</p>
            <div>
-          {<img src="https://via.placeholder.com/750" alt="" className="src" />}
+           <img src={IBM2} alt="" />
            </div>
+
+           <div>
+           <img src={IBM3} alt="" />
+           </div>
+
+           <p>Algumas features em que trabalhei foram as features de Evidence (exploração de evidências) e a análise de Regiões de Interesse.
+             O processo de decisão envolvido na interpretação sísmica na exploração de óleo e gás costuma ser bastante complexo, com a análise de dados e confirmação de hipóteses sendo os pontos principais.
+             Eu tive como desafio entender como geocientistas analisam evidências em poços, regiões e artigos para suportar suas hipóteses sobre como um prospecto se comporta. Junto com designers e desenvolvedores, eu projetei telas e um fluxo que 
+             contemplasse a coleta e curadoria de evidências por todo o sistema. A busca, análise e manipulação de regiões de interesse também é outro fluxo muito importante no SIA, onde os especialistas anotam as características que viram naquela região enquanto recebem e avaliam sugestões geradas pelo próprio sistema por meio de AI. 
+             Em um processo iterativo, eu participei do redesign do fluxo de análise de regiões, desde a descoberta da jornada do usuário até a criação de protótipos de baixa e alta fidelidade.
+           </p>
            
           </section>
         </article>

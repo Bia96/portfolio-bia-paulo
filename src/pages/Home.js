@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
-import HeroA from "../assets/images/mob-hero-1.png";
-import HeroB from "../assets/images/tcc-1.png";
+import mob from "../assets/images/mob-hero-1.png";
+import tcc from "../assets/images/tcc-1.png";
 
 export const Home = () => {
   return (
@@ -45,8 +45,8 @@ export const Home = () => {
           </div>
 
           <div className="right">
-            <img src={HeroA} alt="" />
-            <img src={HeroB} alt="" />
+            <img src={mob} alt="" />
+            <img src={tcc} alt="" />
           </div>
         </div>
       </section>
