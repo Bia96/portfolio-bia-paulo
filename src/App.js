@@ -3,10 +3,10 @@ import "./App.scss";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { ibm } from "./pages/ibm";
 import { BRLCS } from "./pages/ProjBRLCS";
 import { Eixo } from "./pages/Eixo";
-import { mob } from "./pages/mob";
+import { Mob } from "./pages/mob";
+import { IBM } from "./pages/ibm";
 
 function App() {
   return (
@@ -15,19 +15,19 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/projeto-1">
-          <mob />
+        <Route exact path="/projeto-1">
+          <Mob />
         </Route>
-        <Route path="/projeto-2">
+        <Route exact path="/projeto-2">
           <Eixo />
         </Route>
-        <Route path="/projeto-3">
+        <Route exact path="/projeto-3">
           <BRLCS />
         </Route>
-        <Route path="/projeto-4">
-          <ibm />
+        <Route exact path="/projeto-4">
+          <IBM />
         </Route>
-        <Route path="/projeto-5">
+        <Route exact path="/projeto-5">
           <BRLCS />
         </Route>
       </Switch>
