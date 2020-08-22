@@ -1,8 +1,7 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
-import shark from "../assets/images/1.jpg";
 
-export const BRLCS = () => {
+export const Eixo = () => {
   return (
     <main className="main">
 

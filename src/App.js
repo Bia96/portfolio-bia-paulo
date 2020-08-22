@@ -3,7 +3,10 @@ import "./App.scss";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { BRLCS } from "./pages/ibm";
+import { ibm } from "./pages/ibm";
+import { BRLCS } from "./pages/ProjBRLCS";
+import { Eixo } from "./pages/Eixo";
+import { mob } from "./pages/mob";
 
 function App() {
   return (
@@ -13,16 +16,16 @@ function App() {
           <Home />
         </Route>
         <Route path="/projeto-1">
-          <BRLCS />
+          <mob />
         </Route>
         <Route path="/projeto-2">
-          <BRLCS />
+          <Eixo />
         </Route>
         <Route path="/projeto-3">
           <BRLCS />
         </Route>
         <Route path="/projeto-4">
-          <BRLCS />
+          <ibm />
         </Route>
         <Route path="/projeto-5">
           <BRLCS />

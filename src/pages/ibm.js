@@ -4,7 +4,7 @@ import IBM1 from "../assets/images/IBM1.png";
 import IBM2 from "../assets/images/IBM2.png";
 import IBM3 from "../assets/images/IBM3.jpg";
 
-export const BRLCS = () => {
+export const ibm = () => {
   return (
     <main className="main">
       <section className="container container__fullproject">
