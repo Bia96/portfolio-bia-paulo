@@ -5,17 +5,27 @@ export const BRLCS = () => {
   return (
     <main className="main">
 
+<section className="container container__presentation">
+        <div className="content">
+          <div className="left">
+            <h1>BRL Common Styles</h1>
+            <h2>Sobre o projeto</h2>
+            <p>O BRL Common Styles (BRL significa "Brazil Lab") foi uma biblioteca de estilos em Sketch e CSS criada para ser usada nos projetos internos do meu time e de outros no IBM Research.
+                Nesse projeto, eu participei desde o estudo inicial dos estilos existentes, até a criação e implementação em HTML e CSS da biblioteca. Me inspirei junto ao time em Design Systems amplamente usados como o Material Design (Google), Lightning (Salesforce) e o Design System da IBM, o Carbon. 
+                Para se adaptar às necessidades do nosso time naquele momento, vimos a necessidade criar em pouco tempo nosso próprio "Design System": leve, adaptável e pouco intrusivo, que se incorporasse sem esforço aos projetos que já existiam.
+            </p>
+          </div>
+          <div className="right">
+          {<img src="https://via.placeholder.com/750" alt="" className="src" />}
+          </div>
+
+        </div>
+</section>
+
     <section className="container container__fullproject">
-      <h1>BRL Common Styles</h1>
+     
       <div className="content">
-        <aside className= "project-data">
-          <h2>Sobre o projeto</h2>
-          <p>O BRL Common Styles (BRL significa "Brazil Lab") foi uma biblioteca de estilos em Sketch e CSS criada para ser usada nos projetos internos do meu time e de outros no IBM Research.
-            Nesse projeto, eu participei desde o estudo inicial dos estilos existentes, passando pelo levantamento dos estilos que seriam criados, até a criação e implementação em HTML e CSS da biblioteca. Para 
-            fazer esse projeto, me inspirei junto ao time em Design Systems amplamente usados como o Material Design (Google), Lightning (Salesforce) e o Design System da IBM, o Carbon. Quando estagiei no IBM Research, o Carbon ainda era um sistema
-            dando seus primeiros passos. Para se adaptar às necessidades do nosso time naquele momento, vimos a necessidade criar em pouco tempo nosso próprio "Design System": leve, adaptável e pouco intrusivo, que se incorporasse sem esforço aos projetos que já existiam.
-          </p>
-        </aside>
+    
 
         <article>
           <section>
@@ -59,6 +69,13 @@ export const BRLCS = () => {
         </article>
       </div>
     </section>
+
+    <h3>Ver mais projetos</h3>
+        <div className="button-container">
+          <button className="ghost" type="button">
+            Página inicial
+          </button>
+        </div>
 
     <section className="container container__footer">
       <footer className="footer">

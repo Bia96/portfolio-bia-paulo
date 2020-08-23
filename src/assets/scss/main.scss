@@ -202,6 +202,10 @@ ul {
     color: $white;
     border: none;
   }
+  .ghost {
+    color: $main-neutral;
+    text-decoration: underline;
+  } 
 }
 
 .container__footer {
@@ -251,6 +255,10 @@ ul {
 /// Project ///
 
 .container__fullproject {
+  img {
+    max-width: 750px;
+    margin: 2rem 0;
+  }
   h1 {
     font-family: "Abril Fatface", serif;
     color: $accent-dark;
@@ -273,7 +281,12 @@ ul {
     padding-bottom: 0.25em;
   }
 
+  p {
+    color: $regular-text;
+  }
+
   margin-bottom: 7em;
+  padding: 3rem 2.5rem;
   .content {
     display: flex;
     flex-direction: row;
@@ -293,6 +306,7 @@ ul {
         p {
           margin-top: 0;
           padding-top: 0;
+          color: $regular-text;
         }
       }
     }
@@ -321,8 +335,16 @@ ul {
         p {
           font-family: "Lato", sans-serif;
           font-weight: 300;
+          color: $regular-text;
         }
       }
     }
   }
 }
+
+
+
+
+// Projects
+
+

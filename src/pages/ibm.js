@@ -7,24 +7,33 @@ import IBM3 from "../assets/images/IBM3.jpg";
 export const IBM = () => {
   return (
     <main className="main">
-      <section className="container container__fullproject">
-        <h1>SIA</h1>
+
+      <section className="container container__presentation">
         <div className="content">
-          <aside className="project-data">
-            <h2>Sobre o projeto</h2>
+          <div className="left">
+            <h1>Design na IBM Research</h1>
             <p>
               O Subsurface Interpretation Advisor foi o projeto público que mais
-              atuei dentro da IBM. Ao longo do meu período de estágio, também
+              atuei dentro da IBM, junto com outros ainda em fase confidencial.
+              Ao longo do meu período de estágio, também
               trabalhei desde a pesquisa com usuários até a prototipagem de
               diversos outros projetos. O maior desafio foi: como capturar
               processos de tomada de decisão complexos na indústria de óleo e
               gás, e construir interfaces que suportem esses processos para os
               usuários?
             </p>
-          </aside>
+          </div>
+          <div className="right">
+          {<img src="https://via.placeholder.com/750" alt="" className="src" />}
+          </div>
 
+        </div>
+</section>
+
+      <section className="container container__fullproject">
+        <div className="content">
           <article>
-            <section>
+           
               <h1>O problema</h1>
               <h2>
                 Estruturando e suportando decisões com AI na indústria de Óleo e
@@ -102,10 +111,6 @@ export const IBM = () => {
                 da jornada do usuário até a criação de protótipos de baixa e
                 alta fidelidade.
               </p>
-            </section>
-          </article>
-        </div>
-      </section>
 
       <p>
         Quando entrei na IBM como estagiária, o projeto estava na fase de
@@ -115,7 +120,7 @@ export const IBM = () => {
         requisitos e ideias para protótipos de UI. Aqui, o desafio foi traduzir
         processos complexos que agregam muitos dados em interfaces simples,
         intuitivas, que suportassem a interpretação mantendo a coerência e boa
-        usabilidade.{" "}
+        usabilidade.
       </p>
       <div>
         {<img src="https://via.placeholder.com/750" alt="" className="src" />}
@@ -138,7 +143,9 @@ export const IBM = () => {
         Sketch e libraries de estilo para fazer protótipos de alta fidelidade, e
         participei junto aos desenvolvedores front-end das implementações.
       </p>
-      <div></div>
+      </article>
+      </div>
+      </section>
 
       <section className="container container__footer">
         <footer className="footer">
