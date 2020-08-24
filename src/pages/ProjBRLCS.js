@@ -1,5 +1,8 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
+import CS1 from "../assets/images/brlcs-1.jpg";
+import CS2 from "../assets/images/cs-draw.jpg";
+import top from "../assets/images/brlcs-top.jpg";
 
 export const BRLCS = () => {
   return (
@@ -16,7 +19,7 @@ export const BRLCS = () => {
             </p>
           </div>
           <div className="right">
-          {<img src="https://via.placeholder.com/750" alt="" className="src" />}
+          <img src={top} alt="" />
           </div>
 
         </div>
@@ -44,14 +47,14 @@ export const BRLCS = () => {
            </p>
 
            <div>
-          {<img src="https://via.placeholder.com/750" alt="" className="src" />}
+            <img src={CS1} alt="" />
            </div>
 
            <p>O BRL-CS precisava ser, antes de tudo, não-intrusivo. As aplicações que construímos no laboratório são baseadas em informações e dados complexos, complexidade que se traduz nas interfaces. Os elementos de UI teriam que dar suporte a esses processos e guiar o usuário, sem desviar a
              atenção dos elementos principais, criar poluição visual ou mensagens confusas. Por isso, decidimos adotar uma única accent color, junto com as cores operacionais (Sucesso, erro, info, alerta) e um set de cores neutras. Todos os elementos não-interativos seriam brancos ou em cinzas neutros. O BRL-CS foi projetado para ser escalável, atômico e requerer o mínimo de classes 
              CSS para implementar elementos básicos, como cards, barras laterais, navegações, entre outros.</p>
              <div>
-          {<img src="https://via.placeholder.com/750" alt="" className="src" />}
+             <img src={CS2} alt="" />
            </div>
            <p>
            Meu primeiro passo foi procurar as inconsistências pelos projetos que já estávamos construindo. O maior projeto na época já era maduro o suficiente para apresentar vários fluxos, componentes e elementos de UI que já eram usados mas que não tinham uma padronização consistente. Depois de fazer um levantamento dos vários jeitos diferentes que os elementos eram criados, determinei alguns elementos que eram fundamentais na biblioteca e suas características (por exemplo, botões que poderiam ser cheios ou outline, dropdowns múltiplas, tooltips, elementos de formulário, entre outros). Seguindo os princípios do atomic design, os primeiros elementos a serem construídos foram as cores e tipografia, logo depois formas básicas, para por fim padronizar cards, modais e sidebars.
