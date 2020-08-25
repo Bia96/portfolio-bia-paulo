@@ -151,7 +151,6 @@ ul {
       }
     }
     article {
-      padding-left: 3em;
       max-width: 70%;
       section {
         margin-bottom: 3em;
@@ -209,6 +208,7 @@ ul {
 }
 
 .container__footer {
+  padding: 0 6rem;
   background-color: $main-dark;
   color: $background-white;
   .footer {
@@ -255,10 +255,35 @@ ul {
 /// Project ///
 
 .container__fullproject {
-  img {
-    max-width: 750px;
-    margin: 2rem 0;
+
+
+
+  .container__projchunk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &.reverse {
+      flex-direction: row-reverse;
+
+      img {
+        margin: 2rem 3rem 2rem 0;
+      }
+    }
   }
+
+  img {
+    max-width: 650px;
+    min-width: 45%;
+    margin: 2rem 0  2rem 3rem;
+    display: inline-block;
+
+  }
+  article {
+
+    section {
+
+
   h1 {
     font-family: "Abril Fatface", serif;
     color: $accent-dark;
@@ -285,8 +310,12 @@ ul {
     color: $regular-text;
   }
 
+}
+
+}
+
   margin-bottom: 7em;
-  padding: 3rem 2.5rem;
+  padding: 3rem 7rem;
   .content {
     display: flex;
     flex-direction: row;
@@ -296,7 +325,7 @@ ul {
       h1 {
         font-family: "Abril Fatface", serif;
         color: $accent-dark;
-        font-size: 5.5rem;
+        font-size: 4rem;
         margin: 0;
         padding: 0;
       }
@@ -312,30 +341,30 @@ ul {
     }
 
     article {
-      padding-left: 3em;
-      max-width: 70%;
+      max-width: 100%;
       section {
         margin-bottom: 3em;
-        width: 70%;
+        width: 100%;
         min-width: 320px;
+
         h1 {
-          font-family: "Abril Fatface", serif;
-          color: $main;
-          font-size: 1.5rem;
-          padding: 0;
-          margin: 0;
+          margin-bottom: 1.5rem;
         }
+   
         h2 {
           font-family: "Lato", sans-serif;
-          font-size: 1rem;
+          font-size: 1.5rem;
           font-weight: 400;
+          color: $regular-text;
           padding: 0;
           margin: 0;
         }
         p {
           font-family: "Lato", sans-serif;
           font-weight: 300;
+          font-size: 1rem;
           color: $regular-text;
+          margin-right: 1.5rem;
         }
       }
     }
@@ -346,5 +375,3 @@ ul {
 
 
 // Projects
-
-
