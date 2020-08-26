@@ -1,7 +1,9 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
 import CS1 from "../assets/images/brlcs-1.png";
-import CS2 from "../assets/images/cs-draw.jpg";
+import CS4 from "../assets/images/brlcs-4.png";
+import CS2 from "../assets/images/brlcs-2.png";
+import CS3 from "../assets/images/brlcs-3.png";
 import top from "../assets/images/brlcs-top.jpg";
 
 export const BRLCS = () => {
@@ -59,7 +61,7 @@ export const BRLCS = () => {
             <p>
             Meu primeiro passo foi procurar as inconsistências pelos projetos que já estávamos construindo. O maior projeto na época já era maduro o suficiente para apresentar vários fluxos, componentes e elementos de UI que já eram usados mas que não tinham uma padronização consistente. Depois de fazer um levantamento dos vários jeitos diferentes que os elementos eram criados, determinei alguns elementos que eram fundamentais na biblioteca e suas características (por exemplo, botões que poderiam ser cheios ou outline, dropdowns múltiplas, tooltips, elementos de formulário, entre outros). Seguindo os princípios do atomic design, os primeiros elementos a serem construídos foram as cores e tipografia, logo depois formas básicas, para por fim padronizar cards, modais e sidebars.
           </p>
-          {<img src="https://via.placeholder.com/750" alt="" className="src" />}
+          <img src={CS3} alt="" />
           </div>
 
           <div className="container__projchunk reverse">
@@ -69,7 +71,7 @@ export const BRLCS = () => {
               crescendo e evoluindo para continuar útil e consistente.</p>
 
               
-            {<img src="https://via.placeholder.com/750" alt="" className="src" />}
+              <img src={CS4} alt="" />
           </div>
 
            
