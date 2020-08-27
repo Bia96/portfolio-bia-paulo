@@ -3,6 +3,7 @@ import Logo from "../assets/images/logo/logo-light.svg";
 import Mob1 from "../assets/images/mob-1.jpg";
 import Mob2 from "../assets/images/mob-2.jpg";
 import Mob3 from "../assets/images/mob-3.jpg";
+import Mob4 from "../assets/images/mob-4.png";
 import top from "../assets/images/mob-hero-1.png";
 
 export const Mob = () => {
@@ -64,7 +65,7 @@ export const Mob = () => {
 
           <div className="container__projchunk">
               
-              <img clasName="full" src={Mob1} alt="" />
+              <img clasName="full" src={Mob4} alt="" />
           </div>
 
            

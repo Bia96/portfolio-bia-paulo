@@ -362,9 +362,20 @@ ul {
         p {
           font-family: "Lato", sans-serif;
           font-weight: 300;
-          font-size: 1rem;
+          font-size: 1.2rem;
           color: $regular-text;
           margin-right: 1.5rem;
+        }
+
+        a {
+          color: $main;
+          text-decoration: none;
+          transition: 0.3s;
+
+          &:hover {
+            color: $main-dark;
+            text-decoration: underline;
+          }
         }
       }
     }
