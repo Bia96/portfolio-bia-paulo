@@ -59,31 +59,34 @@ export const Home = () => {
         <div className="container__projects">
           
             <div className="project-card">
-              <img src={mob} alt="" />
               <Link to="/projeto-1">
-              {/* <img src="https://via.placeholder.com/250" alt="" className="src" /> */}
+              <img src={mob} alt="" href="/projeto-1" />
               </Link>
+             
             </div>
           
           
        {/* <div className="project-card">
-          <img src={tcc} alt="" />
+          
               <Link to="/projeto-2">
+              <img src={tcc} alt="" />
               
               </Link>
           </div> */}
          
           
             <div className="project-card">
-              <img src={brlcs} alt="" />
+              
               <Link to="/projeto-3">
+              <img src={brlcs} alt="" />
               </Link>
             </div>
           
           
             <div className="project-card">
-              <img src={ibm} alt="" />
+             
               <Link to="/projeto-4">
+              <img src={ibm} alt="" />
               </Link>
             </div>
          

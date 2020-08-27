@@ -295,14 +295,16 @@ ul {
   h1 {
     font-family: "Abril Fatface", serif;
     color: $accent-dark;
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     margin: 0;
     padding: 0;
   }
 
   h2 {
-    font-family: "Abril Fatface", sans-serif;
-    color: $main;
+    font-family: "Lato", serif;
+    color: $regular-text;
+    font-size: 1.25rem;
+    font-weight: 300;
     margin-bottom: 0;
     padding-bottom: 0.25em;
   }
@@ -316,6 +318,7 @@ ul {
 
   p {
     color: $regular-text;
+    font-weight: 200;
   }
 
 }
@@ -359,18 +362,10 @@ ul {
           margin-bottom: 1.5rem;
         }
    
-        h2 {
-          font-family: "Lato", sans-serif;
-          font-size: 1.5rem;
-          font-weight: 400;
-          color: $regular-text;
-          padding: 0;
-          margin: 0;
-        }
         p {
           font-family: "Lato", sans-serif;
-          font-weight: 300;
-          font-size: 1.2rem;
+          font-weight: 200;
+          font-size: 1.15rem;
           color: $regular-text;
           margin-right: 1.5rem;
         }
