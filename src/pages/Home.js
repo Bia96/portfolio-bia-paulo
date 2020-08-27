@@ -114,7 +114,7 @@ export const Home = () => {
                 desenvolvedores front-end para conceber e implementar
                 resultados. Também atuei com UX Researchers em entrevistas,
                 testes de usabilidade e em workshops de design thinking
-                diretamente com usuários
+                diretamente com usuários.
               </p>
             </section>
 
@@ -125,7 +125,7 @@ export const Home = () => {
                 No MPRJ, trabalhei na Gerência de Portal e Programação Visual
                 com criação de cartazes, revistas e cartilhas para diversas
                 iniciativas. Também trabalhei junto a desenvolvedores fornecendo
-                assets para interfaces da intranet e portal do MPRJ
+                assets para interfaces da intranet e portal do MPRJ.
               </p>
             </section>
           </article>

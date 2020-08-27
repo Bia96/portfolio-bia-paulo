@@ -63,7 +63,7 @@ export const Mob = () => {
           <img src={Mob3} alt="" />
           </div>
 
-          <div className="container__projchunk">
+          <div className="container__projchunk full">
               
               <img clasName="full" src={Mob4} alt="" />
           </div>
