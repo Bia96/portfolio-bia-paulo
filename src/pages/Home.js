@@ -1,7 +1,10 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
 import mob from "../assets/images/mob-hero-1.png";
+import brlcs from "../assets/images/brlcs-1.png";
+import ibm from "../assets/images/IBM4.jpg";
 import tcc from "../assets/images/tcc-1.png";
+
 import { Link } from "react-router-dom";
 
 export const Home = () => {
@@ -47,39 +50,44 @@ export const Home = () => {
 
           <div className="right">
             <img src={mob} alt="" />
-            <img src={tcc} alt="" />
+            <img src={brlcs} alt="" />
           </div>
         </div>
       </section>
       <section className="container">
         <h1 className="title-section">Projetos</h1>
-        <article className="container__projects">
-          <Link to="/projeto-1">
-            <div className="top-left-item">
+        <div className="container__projects">
+          
+            <div className="project-card">
+              <img src={mob} alt="" />
+              <Link to="/projeto-1">
               {/* <img src="https://via.placeholder.com/250" alt="" className="src" /> */}
+              </Link>
             </div>
-          </Link>
-          <Link to="/projeto-2">
-            <div className="bottom-left-item">
-              {/* <img src="https://via.placeholder.com/250" alt="" className="src" /> */}
+          
+          
+       {/* <div className="project-card">
+          <img src={tcc} alt="" />
+              <Link to="/projeto-2">
+              
+              </Link>
+          </div> */}
+         
+          
+            <div className="project-card">
+              <img src={brlcs} alt="" />
+              <Link to="/projeto-3">
+              </Link>
             </div>
-          </Link>
-          <Link to="/projeto-3">
-            <div className="center-item">
-              {/* <img src="https://via.placeholder.com/500" alt="" className="src" /> */}
+          
+          
+            <div className="project-card">
+              <img src={ibm} alt="" />
+              <Link to="/projeto-4">
+              </Link>
             </div>
-          </Link>
-          <Link to="/projeto-4">
-            <div className="top-right-item">
-              {/* <img src="https://via.placeholder.com/250" alt="" className="src" /> */}
-            </div>
-          </Link>
-          <Link to="/projeto-5">
-            <div className="bottom-right-item">
-              {/* <img src="https://via.placeholder.com/250" alt="" className="src" /> */}
-            </div>
-          </Link>
-        </article>
+         
+        </div>
       </section>
       <section className="container container__experiences">
         <h1 className="title-section">Experiência</h1>
