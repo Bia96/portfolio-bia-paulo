@@ -20,9 +20,6 @@ export const Mob = () => {
             <p>A Mob é uma startup criada por estudantes de Design em 2017 que busca prestar consultoria em projetos de design assistivo. Em 2019, fiz o design e a implementação inicial do site institucional da Mob.
             </p>
           </div>
-          <div className="right">
-          <img src={top} alt="" />
-          </div>
 
         </div>
 </section>

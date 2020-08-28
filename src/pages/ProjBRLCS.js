@@ -22,9 +22,6 @@ export const BRLCS = () => {
                 Para se adaptar às necessidades do nosso time naquele momento, vimos a necessidade criar em pouco tempo nosso próprio "Design System": leve, adaptável e pouco intrusivo, que se incorporasse sem esforço aos projetos que já existiam.
             </p>
           </div>
-          <div className="right">
-          <img src={top} alt="" />
-          </div>
 
         </div>
 </section>

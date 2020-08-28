@@ -20,10 +20,7 @@ export const IBM = () => {
                 processos de tomada de decisão complexos e construir interfaces que suportem esses processos para os
                 usuários?
             </p>
-          </div>
-          <div className="right">
-          <img src={IBM1} alt="" />
-          </div>
+          </div> 
 
         </div>
 </section>
