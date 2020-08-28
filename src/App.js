@@ -4,9 +4,10 @@ import "./App.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { BRLCS } from "./pages/ProjBRLCS";
-import { Eixo } from "./pages/Eixo";
+import { Video } from "./pages/Video";
 import { Mob } from "./pages/mob";
 import { IBM } from "./pages/ibm";
+import { Rex } from "./pages/Rex";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Mob />
         </Route>
         <Route exact path="/projeto-2">
-          <Eixo />
+          <Video />
         </Route>
         <Route exact path="/projeto-3">
           <BRLCS />
@@ -28,7 +29,7 @@ function App() {
           <IBM />
         </Route>
         <Route exact path="/projeto-5">
-          <BRLCS />
+          <Rex />
         </Route>
       </Switch>
     </Router>

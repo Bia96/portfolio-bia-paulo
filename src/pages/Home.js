@@ -69,17 +69,22 @@ export const Home = () => {
                 </div>
               <img src={mob} alt="" href="/projeto-1" />
               </Link>
-             
             </div>
           
           
-       {/* <div className="project-card">
+        <div className="project-card">
           
               <Link to="/projeto-2">
-              <img src={tcc} alt="" />
-              
+              <div className="card-blur">
+                  <div className="card-info">
+                    <h1>Sketch-based UX</h1>
+                    <p>Ilustração, UX Design</p>
+                    <button>Ver projeto</button>
+                  </div>
+                </div>
+              <img src={brlcs} alt="" />
               </Link>
-          </div> */}
+          </div> 
          
           
             <div className="project-card">
@@ -110,6 +115,20 @@ export const Home = () => {
               <img src={ibm} alt="" />
               </Link>
             </div>
+
+            <div className="project-card">
+          
+          <Link to="/projeto-5">
+          <div className="card-blur">
+              <div className="card-info">
+                <h1>Research Experiences</h1>
+                <p>Ilustração, UX Design</p>
+                <button>Ver projeto</button>
+              </div>
+            </div>
+          <img src={brlcs} alt="" />
+          </Link>
+      </div> 
          
         </div>
       </section>
