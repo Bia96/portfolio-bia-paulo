@@ -4,6 +4,8 @@ import IBM1 from "../assets/images/IBM1.png";
 import IBM2 from "../assets/images/IBM2.png";
 import IBM4 from "../assets/images/IBM4.jpg";
 
+import { Link } from "react-router-dom";
+
 export const IBM = () => {
   return (
     <main className="main">
@@ -94,14 +96,18 @@ export const IBM = () => {
       </section>
       </article>
       </div>
+     
+        <div className="button-container">
+          
+          <Link to="/Home">
+            <button className="ghost-button" type="button">
+              Página inicial
+            </button>
+          </Link>
+        </div>
       </section>
 
-      <h3>Ver mais projetos</h3>
-        <div className="button-container">
-          <button className="ghost" type="button">
-            Página inicial
-          </button>
-        </div>
+
 
       <section className="container container__footer">
         <footer className="footer">

@@ -6,6 +6,8 @@ import Mob3 from "../assets/images/mob-3.jpg";
 import Mob4 from "../assets/images/mob-4.png";
 import top from "../assets/images/mob-hero-1.png";
 
+import { Link } from "react-router-dom";
+
 export const Mob = () => {
   return (
     <main className="main">
@@ -72,9 +74,18 @@ export const Mob = () => {
           </section>
         </article>
       </div>
+
+      <div className="button-container">
+          
+          <Link to="/Home">
+            <button className="ghost-button" type="button">
+              Página inicial
+            </button>
+          </Link>
+        </div>
     </section>
 
-    <h3>Ver mais projetos</h3>
+    
         <div className="button-container">
           <button className="ghost" type="button">
             Página inicial

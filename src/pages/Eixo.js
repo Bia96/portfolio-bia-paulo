@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
 
+import { Link } from "react-router-dom";
+
 export const Eixo = () => {
   return (
     <main className="main">
@@ -52,6 +54,15 @@ export const Eixo = () => {
           </section>
         </article>
       </div>
+
+      <div className="button-container">
+        
+        <Link to="/Home">
+          <button className="ghost-button" type="button">
+            Página inicial
+          </button>
+        </Link>
+        </div>
     </section>
 
     <section className="container container__footer">

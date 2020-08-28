@@ -6,6 +6,8 @@ import CS2 from "../assets/images/brlcs-2.png";
 import CS3 from "../assets/images/brlcs-3.png";
 import top from "../assets/images/brlcs-top.jpg";
 
+import { Link } from "react-router-dom";
+
 export const BRLCS = () => {
   return (
     <main className="main">
@@ -78,14 +80,16 @@ export const BRLCS = () => {
           </section>
         </article>
       </div>
-    </section>
 
-    <h3>Ver mais projetos</h3>
-        <div className="button-container">
-          <button className="ghost" type="button">
-            Página inicial
-          </button>
+      <div className="button-container">
+          
+          <Link to="/Home">
+            <button className="ghost-button" type="button">
+              Página inicial
+            </button>
+          </Link>
         </div>
+    </section>
 
     <section className="container container__footer">
       <footer className="footer">

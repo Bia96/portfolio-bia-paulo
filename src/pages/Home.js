@@ -25,7 +25,7 @@ export const Home = () => {
               para criar conceitos, gerar e testar ideias.
             </p>
 
-            <nav>
+           {/* <nav>
               <a className="" href="e-mail">
                 Email
               </a>
@@ -45,12 +45,12 @@ export const Home = () => {
               >
                 Github
               </a>
-            </nav>
+           </nav>*/}
           </div>
 
           <div className="right">
-            <img src={mob} alt="" />
             <img src={brlcs} alt="" />
+            <img src={mob} alt="" />
           </div>
         </div>
       </section>
@@ -85,6 +85,13 @@ export const Home = () => {
             <div className="project-card">
               
               <Link to="/projeto-3">
+              <div className="card-blur">
+                  <div className="card-info">
+                    <h1>Common Styles</h1>
+                    <p>UI Design, HTML/CSS</p>
+                    <button>Ver projeto</button>
+                  </div>
+                </div>
               <img src={brlcs} alt="" />
               </Link>
             </div>
@@ -93,6 +100,13 @@ export const Home = () => {
             <div className="project-card">
              
               <Link to="/projeto-4">
+              <div className="card-blur">
+                  <div className="card-info">
+                    <h1>Design na IBM Research</h1>
+                    <p>UI Design, UX Design</p>
+                    <button>Ver projeto</button>
+                  </div>
+                </div>
               <img src={ibm} alt="" />
               </Link>
             </div>
@@ -150,10 +164,15 @@ export const Home = () => {
         </div>
         <h1 className="contact-invite">Vamos conversar?</h1>
         <div className="button-container">
+
+          <a href="https://www.linkedin.com/in/bia-paulo/" target="_blank" rel="noreferrer noopener">
           <button className="send-email" type="button">
-            Manda um e-mail
+            Meu LinkedIn
           </button>
+          </a>
+          <p>Ou se preferir, mande um email: beatrizsandp@gmail.com</p>
         </div>
+        
       </section>
       <section className="container container__footer">
         <footer className="footer">

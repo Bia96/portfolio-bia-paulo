@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Home">
           <Home />
         </Route>
         <Route exact path="/projeto-1">
