@@ -60,6 +60,13 @@ export const Home = () => {
           
             <div className="project-card">
               <Link to="/projeto-1">
+                <div className="card-blur">
+                  <div className="card-info">
+                    <h1>Mob Design</h1>
+                    <p>UI Design, HTML/CSS</p>
+                    <button>Ver projeto</button>
+                  </div>
+                </div>
               <img src={mob} alt="" href="/projeto-1" />
               </Link>
              
