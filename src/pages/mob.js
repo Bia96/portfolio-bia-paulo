@@ -4,7 +4,7 @@ import Mob1 from "../assets/images/mob-1.jpg";
 import Mob2 from "../assets/images/mob-2.jpg";
 import Mob3 from "../assets/images/mob-3.jpg";
 import Mob4 from "../assets/images/mob-4.png";
-import top from "../assets/images/mob-hero-1.png";
+
 
 import { Link } from "react-router-dom";
 
@@ -74,7 +74,7 @@ export const Mob = () => {
 
       <div className="button-container">
           
-          <Link to="/Home">
+          <Link to="/">
             <button className="ghost-button" type="button">
               Página inicial
             </button>

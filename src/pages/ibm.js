@@ -96,7 +96,7 @@ export const IBM = () => {
      
         <div className="button-container">
           
-          <Link to="/Home">
+          <Link to="/">
             <button className="ghost-button" type="button">
               Página inicial
             </button>

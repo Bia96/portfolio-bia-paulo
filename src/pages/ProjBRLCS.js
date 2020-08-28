@@ -4,7 +4,7 @@ import CS1 from "../assets/images/brlcs-1.png";
 import CS4 from "../assets/images/brlcs-4.png";
 import CS2 from "../assets/images/brlcs-2.png";
 import CS3 from "../assets/images/brlcs-3.png";
-import top from "../assets/images/brlcs-top.jpg";
+
 
 import { Link } from "react-router-dom";
 
@@ -80,7 +80,7 @@ export const BRLCS = () => {
 
       <div className="button-container">
           
-          <Link to="/Home">
+          <Link to="/">
             <button className="ghost-button" type="button">
               Página inicial
             </button>

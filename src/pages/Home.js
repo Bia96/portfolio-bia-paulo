@@ -3,7 +3,7 @@ import Logo from "../assets/images/logo/logo-light.svg";
 import mob from "../assets/images/mob-hero-1.png";
 import brlcs from "../assets/images/brlcs-1.png";
 import ibm from "../assets/images/IBM4.jpg";
-import tcc from "../assets/images/tcc-1.png";
+
 
 import { Link } from "react-router-dom";
 
