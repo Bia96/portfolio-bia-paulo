@@ -18,8 +18,9 @@ export const Rex = () => {
             <h1>Research Experiences</h1>
             <h2>Sobre o projeto</h2>
             <p>
-              Comunicar a visão de uma experiência para stakeholders e usuários de uma forma engajante pode ser um problema complexo, principalmente quando ainda não existem demos ou protótipos de alta
-              fidelidade. Pensando nisso, nosso time imaginou comunicar a experiência que tínhamos imaginado para o futuro com o nosso produto de uma forma agnóstica, rápida e principalmente humanizada para todos os envolvidos nos processo utilizando sketches e storytelling. 
+              O pensamento científico começa com muitas perguntas. Para uma pesquisa ser comunicada e gerar resultados, podem levar vários anos. Porém, especialmente para uma empresa de tecnologia como a IBM,
+              é fundamental o diálogo com potenciais clientes, com as unidades de vendas e com a sociedade sobre a inovação e soluções que o laboratório trabalha para alcançar, porque, como e para quem. Pensando nesse problema, o projeto Research Experiences busca
+              encontrar em pouco tempo uma maneira inovadora, engajante e plural de se comunicar as pesquisas feitas no IBM Research.
             </p>
           </div>
 
@@ -34,12 +35,13 @@ export const Rex = () => {
         <article>
           <section>
             <h1>O problema</h1>
-            <h2>Mostrando a jornada do usuário em uma língua comum a todos</h2>
+            <h2>Comunicando para clientes, pesquisadores e para a sociedade a pesquisa da IBM</h2>
 
             <div className="container__projchunk">
               <p>
-                Em projetos de pesquisa, os desafios para os designers envolvidos são muitos: A incerteza do resultado, que depende de resultados de pesquisa; e a diversidade do background dos envolvidos. No time extendido do nosso projeto, trabalhamos com engenheiros, geólogos, geofísicos, especialistas em AI, Data Scientists, entre outros. Pesquisadores da área de tecnologia
-                estão acostumados a tratar problemas de forma linear, enquanto designers trabalham de forma iterativa. Para isso, descobrimos que user journeys contados em forma de histórias em vídeo poderiam nos ajudar a comunicar os insights da pesquisa com os usuários e nossas ideias de um jeito que todos os stakeholders e clientes pudessem compreender.
+                Cientistas encaram problemas de um jeito parecido, mas bastante diferente de designers e profissionais mais orientados a negócios. Um problema de pesquisa pode ser analisado por anos ou décadas até que vire uma solução
+                palpável ou um produto que realmente se incorpora na vida das pessoas. Por isso, para muitos pesquisadores, comunicar o que eles fazem, como, por quê e para quem, pode ser um desafio. Pensando nisso, resolvemos conversar com pesquisadores, potenciais clientes e pessoas da área de vendas da IBM para
+                entender como poderíamos comunicar melhor as pesquisas e soluções que são construídas no laboratório da IBM.
               </p>
 
             <div>
