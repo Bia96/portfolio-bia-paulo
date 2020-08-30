@@ -117,9 +117,9 @@ export const Home = () => {
               </Link>
             </div>
 
-            <div className="project-card">
+           {/* <div className="project-card">
           
-           <Link to="/projeto-5">
+            <Link to="/projeto-5">
           <div className="card-blur">
               <div className="card-info">
                 <h1>Research Experiences</h1>
@@ -129,7 +129,7 @@ export const Home = () => {
             </div>
           <img src={brlcs} alt="" />
           </Link>
-      </div>
+          </div> */}
          
         </div>
       </section>
