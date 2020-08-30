@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
-import CS1 from "../assets/images/brlcs-1.png";
-import CS2 from "../assets/images/brlcs-2.png";
+import RX1 from "../assets/images/rex-1.jpg";
+import RX2 from "../assets/images/rex-2.jpg";
 import CS3 from "../assets/images/brlcs-3.png";
 
 
@@ -42,10 +42,6 @@ export const Rex = () => {
                 palpável ou um produto que realmente se incorpora na vida das pessoas. Por isso, para muitos pesquisadores, comunicar o que eles fazem, como, por quê e para quem, pode ser um desafio. Pensando nisso, resolvemos conversar com pesquisadores, potenciais clientes e pessoas da área de vendas da IBM para
                 entender como poderíamos comunicar melhor as pesquisas e soluções que são construídas no laboratório.
               </p>
-
-            <div>
-              <img src={CS1} alt="" /> 
-            </div>
            </div>
 
            <div className="container__projchunk">
@@ -55,7 +51,7 @@ export const Rex = () => {
               ao apresentarem suas pesquisas para diferentes audiências. Também entrevistamos pessoas interessadas em tecnologia e pessoas da IBM na área de vendas.
             </p>
               <div>
-              <img src={CS2} alt="" />
+              <img src={RX1} alt="" />
             </div>
            </div>
 
@@ -65,7 +61,7 @@ export const Rex = () => {
               mapa de Benchmarking onde todos os envolvidos no projeto puderam colaborar com referências livremente.
               Eu categorizei as referências que o time trouxe e tirei insights de cada uma delas, que mais tarde iam ajudar na fase de ideação.
             </p>
-          <img src={CS3} alt="" />
+          <img src={RX2} alt="" />
           </div>
 
           <div className="container__projchunk">
