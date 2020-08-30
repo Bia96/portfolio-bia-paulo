@@ -117,7 +117,7 @@ export const Home = () => {
               </Link>
             </div>
 
-            {/* <div className="project-card">
+            <div className="project-card">
           
            <Link to="/projeto-5">
           <div className="card-blur">
@@ -129,7 +129,7 @@ export const Home = () => {
             </div>
           <img src={brlcs} alt="" />
           </Link>
-      </div> */}
+      </div>
          
         </div>
       </section>

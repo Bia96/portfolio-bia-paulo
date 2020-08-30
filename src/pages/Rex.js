@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
 import CS1 from "../assets/images/brlcs-1.png";
-import CS4 from "../assets/images/brlcs-4.png";
 import CS2 from "../assets/images/brlcs-2.png";
 import CS3 from "../assets/images/brlcs-3.png";
 
@@ -18,9 +17,9 @@ export const Rex = () => {
             <h1>Research Experiences</h1>
             <h2>Sobre o projeto</h2>
             <p>
-              O pensamento científico começa com muitas perguntas. Para uma pesquisa ser comunicada e gerar resultados, podem levar vários anos. Porém, especialmente para uma empresa de tecnologia como a IBM,
-              é fundamental o diálogo com potenciais clientes, com as unidades de vendas e com a sociedade sobre a inovação e soluções que o laboratório trabalha para alcançar, porque, como e para quem. Pensando nesse problema, o projeto Research Experiences busca
-              encontrar em pouco tempo uma maneira inovadora, engajante e plural de se comunicar as pesquisas feitas no IBM Research.
+             O projeto Research Experiences tem como objetivo
+              encontrar em pouco tempo uma maneira inovadora e engajante de se comunicar as pesquisas feitas no IBM Research. Nesse projeto, trabalhei na parte de User Research e Ideação, 
+              realizando desde entrevistas inicias até workshops de ideação.
             </p>
           </div>
 
@@ -41,7 +40,7 @@ export const Rex = () => {
               <p>
                 Cientistas encaram problemas de um jeito parecido, mas bastante diferente de designers e profissionais mais orientados a negócios. Um problema de pesquisa pode ser analisado por anos ou décadas até que vire uma solução
                 palpável ou um produto que realmente se incorpora na vida das pessoas. Por isso, para muitos pesquisadores, comunicar o que eles fazem, como, por quê e para quem, pode ser um desafio. Pensando nisso, resolvemos conversar com pesquisadores, potenciais clientes e pessoas da área de vendas da IBM para
-                entender como poderíamos comunicar melhor as pesquisas e soluções que são construídas no laboratório da IBM.
+                entender como poderíamos comunicar melhor as pesquisas e soluções que são construídas no laboratório.
               </p>
 
             <div>
@@ -51,9 +50,9 @@ export const Rex = () => {
 
            <div className="container__projchunk">
             <p>
-              O caso onde aplicamos essa técnica foi no de assistentes baseados em AI para a indústria de petróleo e gás. Após diversas atividades de campo para delinear a jornada do usuário,
-              foi criado um storyboard ilustrado, que serviu de base para o storyboard escrito. O objetivo era comunicar de que formas nossa solução poderia se incorporar ao trabalho dos clientes, mostrando seus pain points e destacando as oportunidades de melhora. Construir o storyboard foi um processo iterativo
-              e colaborativo entre time e stakeholders.
+              Começamos traçando um plano de entrevistas, onde todos os pesquisadores do laboratório explicariam sua pesquisa um para o outro em turnos. Nessa fase,
+              eu atuei elaborando o plano com o time e facilitando entrevistas entre os pesquisadores. O objetivo foi compreender os recursos e pain points dos pesquisadores 
+              ao apresentarem suas pesquisas para diferentes audiências. Também entrevistamos pessoas interessadas em tecnologia e pessoas da IBM na área de vendas.
             </p>
               <div>
               <img src={CS2} alt="" />
@@ -62,40 +61,75 @@ export const Rex = () => {
 
            <div className="container__projchunk">
             <p>
-              Os storyboards iniciais se tornaram desenhos mais detalhados, basados em aspectos técnicos reais coletados no trabalho de campo, principalmente conceitos complexos de AI e Geologia. 
-              Meu papel aqui foi o de compreender as descobertas de campo dos User Researchers e os conceitos técnicos, e imaginar analogias visuais para comunicá-los, como ilustrações e animações simples. Para cada ponto do storyboard, imaginamos personagens (baseados nas Personas), situações e cenários. Usando iPad e mesa digitalizadora, fiz diversas
-              ilustrações que lembram sketches no papel. Pensei em um formato de ilustração que fosse rápido de reproduzir e de manipular: nesse estilo de ilustração, podemos brincar com os destaques de cada cena para comunicar mensagens diferentes.
-            </p>
-          <img src={CS3} alt="" />
-          </div>
-
-          <div className="container__projchunk">
-              <img src={CS4} alt="" />
-              <img src={CS4} alt="" />
-          </div>
-
-          <div className="container__projchunk">
-              <img src={CS4} alt="" />
-              <img src={CS4} alt="" />
-          </div>
-
-          <div className="container__projchunk">
-            <p>
-              Os vídeos alcançaram bem os objetivos que imaginamos, passando a mensagem de forma clara e criando uma visão comum entre stakeholders, desenvolvedores, especialistas na área e designers. Como é um meio humanizado de comunicar as ideias, usando personagens e cenários reais,
-              o vídeo agiu como uma forma de introduzir novas ideias. Ver como a solução entraria na vida diária dos usuários criou uma ligação importante. 
+              Para entender melhor as boas práticas de comunicação científica e experiências imersivas, fizemos um
+              mapa de Benchmarking onde todos os envolvidos no projeto puderam colaborar com referências livremente.
+              Eu categorizei as referências que o time trouxe e tirei insights de cada uma delas, que mais tarde iam ajudar na fase de ideação.
             </p>
           <img src={CS3} alt="" />
           </div>
 
           <div className="container__projchunk">
             <p>
-             User flows como conhecemos não comunicariam tão bem o valor da solução, e não considerariam o contexto de forma tão forte. Por outro lado, mockups de alta fidelidade não dariam a visão global e humanizada que pretendíamos mostrar, especialmente no início do projeto. 
-              Percebemos que o sketch-based video trouxe inovação na comunicação de conceitos, quando aplicado como ferramenta junto com métodos mais tradicionais de UX. O resultado,
-              além de ter se tornado uma prática comum no time, foi comunicado num <a href="https://dl.acm.org/doi/10.1145/3334480.3375221">paper publicado na CHI 2020</a> (Conference on Human Factors in Computing Systems).
+              Com base nas entrevistas, o passo seguinte foi a descoberta das Personas. Fizemos um workshop com o time e com o time extendido para conversar sobre nossos insights e categorizá-los, 
+              o que resultaria em algumas personas de pesquisador, cliente/vendedor e audiência. Descobrindo as personas, queríamos descobrir os maiores pain points de cada uma para compreender uma pesquisa científica.
             </p>
           <img src={CS3} alt="" />
           </div>
 
+          <div className="container__projchunk">
+            <p>
+              Outro outcome da fase de entrevistas foi um mapa interativo de todas as pesquisas, áreas, pesquisadores e resultados
+              do Laboratório. Junto com o time, eu trabalhei conceituando o Mapa, desde rascunhos até protótipos interativos. O feedback nessa parte foi bastante positivo, porque tornou mais claras conexões 
+              que passavam despercebidas cruzando dados como área de expertise, tempo no Laboratório, time, skills, entre outras.
+            </p>
+          </div>
+
+          <div className="container__projchunk">
+              <img src={CS3} alt="" />
+              <img src={CS3} alt="" />
+          </div>
+
+          <div className="container__projchunk">
+            <p>
+              Na análise dos dados, eu também participei na criação do modelo de análise das entrevistas. Como esse foi um projeto aberto para pesquisadores com 
+              diversas skills contribuírem, criamos um modelo que pessoas sem um background de design ou pesquisa qualitativa pudessem usar como ferramenta. Usando esse modelo, chegamos em uma série de insights sobre pain points dos pesquisadores,
+              dificuldades e recursos que funcionam para explicar suas pesquisas.
+            </p>
+            <img src={CS3} alt="" />
+          </div>
+
+          <div className="container__projchunk">
+            <p>
+              Com as descobertas da primeira fase de pesquisa com usuários, criamos os Hills/Need Statements pra cada Persona, fizemos uma votação das melhores referências de benchmarking, e facilitamos um workshop de Ideação com todo o time.
+              Meu papel nesse workshop foi de planejamento e facilitação - como eu participei um pouco de cada parte da pesquisa, pude ter uma visão global dos insights até aquela hora, e isso ajudou bastante na fase de ideação.
+            </p>
+            <img src={CS3} alt="" />
+          </div>
+
+          <div className="container__projchunk">
+              <img src={CS3} alt="" />
+              <img src={CS3} alt="" />
+          </div>
+
+          <div className="container__projchunk">
+            <p>
+              Criamos vários conceitos de formas de comunicar uma pesquisa, chegando a um MVP baseado em um projeto real. Ajudei a criar ilustrações e wireframes desses conceitos para começar a implementação e validação.
+            </p>
+            <img src={CS3} alt="" />
+          </div>
+
+          <div className="container__projchunk">
+              <img src={CS3} alt="" />
+              <img src={CS3} alt="" />
+          </div>
+
+          <div className="container__projchunk">
+            <p>
+              Os principais outcomes desse projeto até o momento foram os conceitos, levantados em menos de um mês; e a criação de uma cultura de comunicação científica e orientação a negócios dentro do laboratório, antes muito restrita a alguns times. Muitos 
+              pesquisadores nunca tinham pensado em como explicar a pesquisa para alguém fora da área de Computação ou para alguém da área de vendas. Mesmo ainda na fase inicial, o projeto já conseguiu trazer questionamentos pra os pesquisadores e conexões novas.
+            </p>
+            <img src={CS3} alt="" />
+          </div>
            
           </section>
         </article>
