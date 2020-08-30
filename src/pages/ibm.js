@@ -13,12 +13,12 @@ export const IBM = () => {
       <section className="container container__presentation">
         <div className="content">
           <div className="left">
-            <h1>Design na IBM Research</h1>
+            <h1>Subsurface Interpretation Advisor (SIA)</h1>
             <p>
-                Na IBM, eu atuei em vários pontos de projetos com clientes: Pesquisa com usuários, criação de conceitos de UI e descoberta de entregáveis de UX e implementação de protótipos de alta fidelidade.
-                O grande desafio que encontrei nesses projetos foi o de capturar
+                O SIA é um projeto conjunto entre a IBM Research e a Galp Energia. O sistema é um advisor baseado em Inteligência Artificial para suportar decisões e análise de dados na indústria de petróleo e gás.
+                Nesse projeto, atuei como UI Designer e ajudei a facilitar workshops de design thinking. O maior desafio foi compreender
                 processos de tomada de decisão complexos e construir interfaces que suportem esses processos para os
-                usuários?
+                usuários.
             </p>
           </div> 
 

@@ -3,6 +3,7 @@ import Logo from "../assets/images/logo/logo-light.svg";
 import mob from "../assets/images/mob-hero-1.png";
 import brlcs from "../assets/images/brlcs-1.png";
 import ibm from "../assets/images/IBM4.jpg";
+import sbv from "../assets/images/sbv-3.jpg";
 
 
 import { Link } from "react-router-dom";
@@ -82,7 +83,7 @@ export const Home = () => {
                     <button>Ver projeto</button>
                   </div>
                 </div>
-              <img src={brlcs} alt="" />
+              <img src={sbv} alt="" />
               </Link>
           </div> 
          
@@ -107,7 +108,7 @@ export const Home = () => {
               <Link to="/projeto-4">
               <div className="card-blur">
                   <div className="card-info">
-                    <h1>Design na IBM Research</h1>
+                    <h1>Subsurface Interpretation Advisor</h1>
                     <p>UI Design, UX Design</p>
                     <button>Ver projeto</button>
                   </div>
@@ -116,9 +117,9 @@ export const Home = () => {
               </Link>
             </div>
 
-            <div className="project-card">
+            {/* <div className="project-card">
           
-          <Link to="/projeto-5">
+           <Link to="/projeto-5">
           <div className="card-blur">
               <div className="card-info">
                 <h1>Research Experiences</h1>
@@ -128,7 +129,7 @@ export const Home = () => {
             </div>
           <img src={brlcs} alt="" />
           </Link>
-      </div> 
+      </div> */}
          
         </div>
       </section>

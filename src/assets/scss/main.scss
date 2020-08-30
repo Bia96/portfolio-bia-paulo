@@ -326,12 +326,27 @@ ul {
     &.full {
       flex-direction: column;
 
-      img {
-        margin: 0;
-        height: 100%;
-        max-width: 900px;
-      }
     }
+      .image {
+
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        img {
+          margin: 0 0 1rem 0;
+          height: 100%;
+          max-width: 650px;
+        }
+
+        p {
+          color: gray;
+          font-family: 'Lato', sans-serif;
+          font-size: 1rem;
+          font-style: italic;
+        }
+    }
+    
 
     &.reverse {
       flex-direction: row-reverse;

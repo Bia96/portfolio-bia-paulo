@@ -1,9 +1,13 @@
 import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
-import CS1 from "../assets/images/brlcs-1.png";
-import CS4 from "../assets/images/brlcs-4.png";
-import CS2 from "../assets/images/brlcs-2.png";
-import CS3 from "../assets/images/brlcs-3.png";
+import V1 from "../assets/images/sbv-1.jpg";
+import V2 from "../assets/images/sbv-2.jpg";
+import V3 from "../assets/images/sbv-3.jpg";
+import V4 from "../assets/images/sbv-4.jpg";
+import V5 from "../assets/images/sbv-5.jpg";
+import V6 from "../assets/images/sbv-6.jpg";
+import V7 from "../assets/images/sbv-7.png";
+
 
 
 import { Link } from "react-router-dom";
@@ -19,7 +23,7 @@ export const Video = () => {
             <h2>Sobre o projeto</h2>
             <p>
               Comunicar a visão de uma experiência para stakeholders e usuários de uma forma engajante pode ser um problema complexo, principalmente quando ainda não existem demos ou protótipos de alta
-              fidelidade. Pensando nisso, nosso time imaginou comunicar a experiência que tínhamos imaginado para o futuro com o nosso produto de uma forma agnóstica, rápida e principalmente humanizada para todos os envolvidos nos processo utilizando sketches e storytelling. 
+              fidelidade. Pensando nisso, nosso time imaginou comunicar a experiência do produto de uma forma rápida e principalmente humanizada para todos os envolvidos nos processo usando sketches e storytelling. 
             </p>
           </div>
 
@@ -43,7 +47,7 @@ export const Video = () => {
               </p>
 
             <div>
-              <img src={CS1} alt="" /> 
+              <img src={V1} alt="" /> 
             </div>
            </div>
 
@@ -53,8 +57,9 @@ export const Video = () => {
               foi criado um storyboard ilustrado, que serviu de base para o storyboard escrito. O objetivo era comunicar de que formas nossa solução poderia se incorporar ao trabalho dos clientes, mostrando seus pain points e destacando as oportunidades de melhora. Construir o storyboard foi um processo iterativo
               e colaborativo entre time e stakeholders.
             </p>
-              <div>
-              <img src={CS2} alt="" />
+              <div className="image">
+              <img src={V2} alt="" />
+              <p>Parte de um storyboard inicial de um dos vídeos. Os storyboards são validados com especialistas do campo, para garantir que além de comunicar a jornada, ele seja tecnicamente fiel.</p>
             </div>
            </div>
 
@@ -64,25 +69,24 @@ export const Video = () => {
               Meu papel aqui foi o de compreender as descobertas de campo dos User Researchers e os conceitos técnicos, e imaginar analogias visuais para comunicá-los, como ilustrações e animações simples. Para cada ponto do storyboard, imaginamos personagens (baseados nas Personas), situações e cenários. Usando iPad e mesa digitalizadora, fiz diversas
               ilustrações que lembram sketches no papel. Pensei em um formato de ilustração que fosse rápido de reproduzir e de manipular: nesse estilo de ilustração, podemos brincar com os destaques de cada cena para comunicar mensagens diferentes.
             </p>
-          <img src={CS3} alt="" />
+            <div className="image">
+              <img src={V3} alt="" />
+              <p>Uma das ilustrações feitas para serem usadas nos vídeos.</p>
+            </div>
           </div>
 
           <div className="container__projchunk">
-              <img src={CS4} alt="" />
-              <img src={CS4} alt="" />
+              <img src={V4} alt="" />
+              <img src={V5} alt="" />
           </div>
 
-          <div className="container__projchunk">
-              <img src={CS4} alt="" />
-              <img src={CS4} alt="" />
-          </div>
 
           <div className="container__projchunk">
             <p>
               Os vídeos alcançaram bem os objetivos que imaginamos, passando a mensagem de forma clara e criando uma visão comum entre stakeholders, desenvolvedores, especialistas na área e designers. Como é um meio humanizado de comunicar as ideias, usando personagens e cenários reais,
               o vídeo agiu como uma forma de introduzir novas ideias. Ver como a solução entraria na vida diária dos usuários criou uma ligação importante. 
             </p>
-          <img src={CS3} alt="" />
+          <img src={V6} alt="" />
           </div>
 
           <div className="container__projchunk">
@@ -91,7 +95,7 @@ export const Video = () => {
               Percebemos que o sketch-based video trouxe inovação na comunicação de conceitos, quando aplicado como ferramenta junto com métodos mais tradicionais de UX. O resultado,
               além de ter se tornado uma prática comum no time, foi comunicado num <a href="https://dl.acm.org/doi/10.1145/3334480.3375221">paper publicado na CHI 2020</a> (Conference on Human Factors in Computing Systems).
             </p>
-          <img src={CS3} alt="" />
+          <img src={V7} alt="" />
           </div>
 
            
