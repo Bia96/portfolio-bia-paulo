@@ -2,7 +2,18 @@ import React from "react";
 import Logo from "../assets/images/logo/logo-light.svg";
 import RX1 from "../assets/images/rex-1.jpg";
 import RX2 from "../assets/images/rex-2.jpg";
-import CS3 from "../assets/images/brlcs-3.png";
+import RX3 from "../assets/images/rex-3.jpg";
+import RX4 from "../assets/images/rex-4.jpg";
+import RX5 from "../assets/images/rex-5.jpg";
+import RX6 from "../assets/images/rex-6.jpg";
+import RX7 from "../assets/images/rex-7.jpg";
+import RX8 from "../assets/images/rex-8.jpg";
+import RX9 from "../assets/images/rex-9.jpg";
+import RX10 from "../assets/images/rex-10.jpg";
+import RX11 from "../assets/images/rex-11.jpg";
+import RX12 from "../assets/images/rex-12.jpg";
+import RX13 from "../assets/images/rex-13.jpg";
+import RX14 from "../assets/images/rex-14.jpg";
 
 
 import { Link } from "react-router-dom";
@@ -69,7 +80,7 @@ export const Rex = () => {
               Com base nas entrevistas, o passo seguinte foi a descoberta das Personas. Fizemos um workshop com o time e com o time extendido para conversar sobre nossos insights e categorizá-los, 
               o que resultaria em algumas personas de pesquisador, cliente/vendedor e audiência. Descobrindo as personas, queríamos descobrir os maiores pain points de cada uma para compreender uma pesquisa científica.
             </p>
-          <img src={CS3} alt="" />
+          <img src={RX3} alt="" />
           </div>
 
           <div className="container__projchunk">
@@ -81,8 +92,13 @@ export const Rex = () => {
           </div>
 
           <div className="container__projchunk">
-              <img src={CS3} alt="" />
-              <img src={CS3} alt="" />
+              <img src={RX4} alt="" />
+              <img src={RX5} alt="" />
+          </div>
+
+          <div className="container__projchunk">
+              <img src={RX6} alt="" />
+              <img src={RX7} alt="" />
           </div>
 
           <div className="container__projchunk">
@@ -91,7 +107,7 @@ export const Rex = () => {
               diversas skills contribuírem, criamos um modelo que pessoas sem um background de design ou pesquisa qualitativa pudessem usar como ferramenta. Usando esse modelo, chegamos em uma série de insights sobre pain points dos pesquisadores,
               dificuldades e recursos que funcionam para explicar suas pesquisas.
             </p>
-            <img src={CS3} alt="" />
+            <img src={RX8} alt="" />
           </div>
 
           <div className="container__projchunk">
@@ -99,24 +115,24 @@ export const Rex = () => {
               Com as descobertas da primeira fase de pesquisa com usuários, criamos os Hills/Need Statements pra cada Persona, fizemos uma votação das melhores referências de benchmarking, e facilitamos um workshop de Ideação com todo o time.
               Meu papel nesse workshop foi de planejamento e facilitação - como eu participei um pouco de cada parte da pesquisa, pude ter uma visão global dos insights até aquela hora, e isso ajudou bastante na fase de ideação.
             </p>
-            <img src={CS3} alt="" />
+            <img src={RX9} alt="" />
           </div>
 
           <div className="container__projchunk">
-              <img src={CS3} alt="" />
-              <img src={CS3} alt="" />
+              <img src={RX10} alt="" />
+              <img src={RX11} alt="" />
           </div>
 
           <div className="container__projchunk">
             <p>
               Criamos vários conceitos de formas de comunicar uma pesquisa, chegando a um MVP baseado em um projeto real. Ajudei a criar ilustrações e wireframes desses conceitos para começar a implementação e validação.
             </p>
-            <img src={CS3} alt="" />
+            <img src={RX12} alt="" />
           </div>
 
           <div className="container__projchunk">
-              <img src={CS3} alt="" />
-              <img src={CS3} alt="" />
+              <img src={RX13} alt="" />
+              <img src={RX14} alt="" />
           </div>
 
           <div className="container__projchunk">
@@ -124,7 +140,7 @@ export const Rex = () => {
               Os principais outcomes desse projeto até o momento foram os conceitos, levantados em menos de um mês; e a criação de uma cultura de comunicação científica e orientação a negócios dentro do laboratório, antes muito restrita a alguns times. Muitos 
               pesquisadores nunca tinham pensado em como explicar a pesquisa para alguém fora da área de Computação ou para alguém da área de vendas. Mesmo ainda na fase inicial, o projeto já conseguiu trazer questionamentos pra os pesquisadores e conexões novas.
             </p>
-            <img src={CS3} alt="" />
+
           </div>
            
           </section>
