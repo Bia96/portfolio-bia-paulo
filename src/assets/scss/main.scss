@@ -36,9 +36,20 @@ ul {
   .content {
     display: flex;
     flex-direction: row;
+
+    @media (max-width: 767.98px) {
+      flex-direction: column;
+    }
+
     .left {
       width: 40%;
       padding: 0 5em;
+
+      @media (max-width: 767.98px) {
+        padding: 1rem;
+        width: 100%;
+      }
+
       h1 {
         font-family: "Abril Fatface", serif;
         font-size: 3rem;
@@ -80,6 +91,10 @@ ul {
       right: 1em;
       background-color: $background-light;
 
+      @media (max-width: 767.98px) {
+        display: none;
+      }
+
       img {
         width: 100%;
         height: 320px;
@@ -98,6 +113,11 @@ ul {
   padding: 0 5em;
   min-height: 0px;
   min-width: 0px;
+
+  @media (max-width: 767.98px) {
+    flex-direction: column;
+    padding: 1rem;
+  }
   
 
   .project-card {
@@ -109,6 +129,11 @@ ul {
     position: relative;
     margin: 1.25rem 1rem 1.25rem 1rem;
 
+    @media (max-width: 767.98px) {
+      width: 100%;
+      margin: 1rem 0;
+    }
+
     .card-blur {
       background-color: $hover-blur;
       min-width: 100%;
@@ -119,6 +144,12 @@ ul {
       flex-direction: column-reverse;
       transition: 0.3s ease;
       padding: 1rem;
+
+      @media (max-width: 767.98px) {
+        width: 100%;
+        max-height: 50%;
+        opacity: 1;
+      }
 
       .card-info {
         color: $white;
@@ -174,10 +205,19 @@ ul {
   .content {
     display: flex;
     flex-direction: row;
+
+    @media (max-width: 767.98px) {
+      flex-direction: column;
+    }
+
     aside {
       font-family: "Lato", Arial, sans-serif;
       padding: 1em;
       min-width: 300px;
+
+      @media (max-width: 767.98px) {
+        padding: 0;
+      }
       h1 {
         font-family: "Abril Fatface", serif;
         color: $accent-dark;
@@ -246,6 +286,7 @@ ul {
       font-family: "Lato", sans-serif;
       font-size: 1rem;
       color: $regular-text;
+      text-align: center;
     }
   }
 
@@ -272,6 +313,11 @@ ul {
   padding: 0 6rem 2rem 6rem;
   background-color: $main-dark;
   color: $background-white;
+
+  @media (max-width: 767.98px) {
+    padding: 1rem;
+  }
+
   .footer {
     a {
       font-family: "Lato", Arial, sans-serif;
@@ -305,6 +351,10 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @media (max-width: 767.98px) {
+      flex-direction: column;
+    }
 
     .footer__title {
       font-family: "Abril Fatface", serif;
