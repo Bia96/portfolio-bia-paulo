@@ -43,7 +43,7 @@ export const Video = () => {
             <div className="container__projchunk">
               <p>
                 Em projetos de pesquisa, os desafios para os designers envolvidos são muitos: A incerteza do resultado, que depende de resultados de pesquisa; e a diversidade do background dos envolvidos. No time extendido do nosso projeto, trabalhamos com engenheiros, geólogos, geofísicos, especialistas em AI, Data Scientists, entre outros. Pesquisadores da área de tecnologia
-                estão acostumados a tratar problemas de forma linear, enquanto designers trabalham de forma iterativa. Para isso, descobrimos que user journeys contados em forma de histórias em vídeo poderiam nos ajudar a comunicar os insights da pesquisa com os usuários e nossas ideias de um jeito que todos os stakeholders e clientes pudessem compreender.
+                estão acostumados a <strong>tratar problemas de forma linear</strong>, enquanto designers trabalham de forma iterativa. Para isso, descobrimos que <strong>user journeys contados em forma de histórias em vídeo</strong> poderiam nos ajudar a comunicar os insights da pesquisa com os usuários e nossas ideias de um jeito que todos os stakeholders e clientes pudessem compreender.
               </p>
 
             <div>
@@ -53,8 +53,8 @@ export const Video = () => {
 
            <div className="container__projchunk">
             <p>
-              O caso onde aplicamos essa técnica foi no de assistentes baseados em AI para a indústria de petróleo e gás. Após diversas atividades de campo para delinear a jornada do usuário,
-              foi criado um storyboard ilustrado, que serviu de base para o storyboard escrito. O objetivo era comunicar de que formas nossa solução poderia se incorporar ao trabalho dos clientes, mostrando seus pain points e destacando as oportunidades de melhora. Construir o storyboard foi um processo iterativo
+              O primeiro caso onde aplicamos essa técnica foi no de <strong>assistentes baseados em AI para a indústria de petróleo e gás</strong>. Após diversas atividades de campo para delinear a jornada do usuário,
+              foi criado um <strong>storyboard ilustrado</strong>, que serviu de base para o storyboard escrito. O objetivo era <strong>comunicar de que formas nossa solução poderia se incorporar ao trabalho dos clientes, mostrando seus pain points e destacando as oportunidades</strong> de melhora. Construir o storyboard foi um processo iterativo
               e colaborativo entre time e stakeholders.
             </p>
               <div className="image">
@@ -66,12 +66,12 @@ export const Video = () => {
            <div className="container__projchunk">
             <p>
               Os storyboards iniciais se tornaram desenhos mais detalhados, basados em aspectos técnicos reais coletados no trabalho de campo, principalmente conceitos complexos de AI e Geologia. 
-              Meu papel aqui foi o de compreender as descobertas de campo dos User Researchers e os conceitos técnicos, e imaginar analogias visuais para comunicá-los, como ilustrações e animações simples. Para cada ponto do storyboard, imaginamos personagens (baseados nas Personas), situações e cenários. Usando iPad e mesa digitalizadora, fiz diversas
-              ilustrações que lembram sketches no papel. Pensei em um formato de ilustração que fosse rápido de reproduzir e de manipular: nesse estilo de ilustração, podemos brincar com os destaques de cada cena para comunicar mensagens diferentes.
+              Meu papel aqui foi o de <strong>compreender as descobertas de campo dos User Researchers e os conceitos técnicos, e imaginar analogias visuais para comunicá-los</strong>, como ilustrações e animações simples. Para cada ponto do storyboard, imaginamos personagens (baseados nas Personas), situações e cenários. Usando iPad e mesa digitalizadora, fiz diversas
+              ilustrações que lembram sketches no papel. Pensei em um formato de ilustração que fosse <strong>rápido de reproduzir e de manipular</strong>: nesse estilo de ilustração, podemos brincar com os destaques de cada cena para comunicar mensagens diferentes.
             </p>
             <div className="image">
               <img src={V3} alt="" />
-              <p>Uma das ilustrações feitas para serem usadas nos vídeos.</p>
+              <p>Uma das ilustrações feitas por mim para serem usadas nos vídeos.</p>
             </div>
           </div>
 
@@ -83,7 +83,7 @@ export const Video = () => {
 
           <div className="container__projchunk">
             <p>
-              Os vídeos alcançaram bem os objetivos que imaginamos, passando a mensagem de forma clara e criando uma visão comum entre stakeholders, desenvolvedores, especialistas na área e designers. Como é um meio humanizado de comunicar as ideias, usando personagens e cenários reais,
+              Os vídeos alcançaram bem os objetivos que imaginamos, <strong>passando a mensagem de forma clara e criando uma visão comum entre stakeholders, desenvolvedores, especialistas na área e designers</strong>. Como é um meio humanizado de comunicar as ideias, usando personagens e cenários reais,
               o vídeo agiu como uma forma de introduzir novas ideias. Ver como a solução entraria na vida diária dos usuários criou uma ligação importante. 
             </p>
           <img src={V6} alt="" />
@@ -93,7 +93,7 @@ export const Video = () => {
             <p>
              User flows como conhecemos não comunicariam tão bem o valor da solução, e não considerariam o contexto de forma tão forte. Por outro lado, mockups de alta fidelidade não dariam a visão global e humanizada que pretendíamos mostrar, especialmente no início do projeto. 
               Percebemos que o sketch-based video trouxe inovação na comunicação de conceitos, quando aplicado como ferramenta junto com métodos mais tradicionais de UX. O resultado,
-              além de ter se tornado uma prática comum no time, foi comunicado num <a href="https://dl.acm.org/doi/10.1145/3334480.3375221">paper publicado na CHI 2020</a> (Conference on Human Factors in Computing Systems).
+              além de <strong>ter se tornado uma prática comum no time, foi comunicado num <a href="https://dl.acm.org/doi/10.1145/3334480.3375221">paper publicado na CHI 2020</a></strong> (Conference on Human Factors in Computing Systems).
             </p>
           <img src={V7} alt="" />
           </div>

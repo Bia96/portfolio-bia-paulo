@@ -36,9 +36,9 @@ export const Mob = () => {
 
             <div className="container__projchunk">
               <p>
-                A Mob é uma startup de Design Assistivo que presta desde consultoria a projetos a desenvolvimento de produtos assistivos. 
-                Eu participei junto aos outros fundadores das ideações iniciais para a identidade visual, e conversei bastante com eles para entender o propósito e a proposta de valor da startup. Muitos bootcamps e pitches depois, percebemos que precisávamos de um site rápido e 
-                que comunicasse tudo que a Mob podia fazer pelos clientes, de forma clara e concisa. O maior desafio foi pensar no design e no desenvolvimento de um site onde ainda não teríamos muito conteúdo, mas uma mensagem para passar e informar. Apesar da maturidade inicial da empresa, precisávamos cativar os clientes.  
+                A Mob é uma <strong>startup de Design Assistivo</strong> que presta desde consultoria a projetos a desenvolvimento de produtos assistivos. 
+                Eu participei junto aos outros fundadores das ideações iniciais para a identidade visual, e conversei bastante com eles para entender o <strong>propósito e a proposta de valor da startup</strong>. Alguns bootcamps e pitches depois, percebemos que precisávamos de <strong>um site rápido e 
+                que comunicasse tudo que a Mob podia fazer pelos clientes</strong>, de forma clara e concisa. O maior desafio foi pensar no design e no desenvolvimento de um site onde ainda não teríamos muito conteúdo, mas uma mensagem para passar e informar. Apesar da maturidade inicial da empresa, precisávamos cativar os clientes.  
               </p>
 
             <div>
@@ -47,7 +47,8 @@ export const Mob = () => {
            </div>
 
            <div className="container__projchunk reverse">
-            <p>O primeiro site da Mob precisava ser simples, mas ter a cara da startup e falar com os clientes da forma certa. Pra isso, comecei elegendo algumas cores e tipografias para serem usadas. A cor predominante da identidade visual da Mob é o azul turquesa. Porém, para alguns CTAs, adicionamos um amarelo de destaque. Por ser legível e ter uma família robusta, escolhemos a Open Sans como principal fonte.
+            <p>O primeiro site da Mob precisava ser <strong>simples, mas ter a cara da startup e falar com os clientes</strong> da forma certa. Pra isso, comecei elegendo algumas cores e tipografias para serem usadas. 
+            A cor predominante da identidade visual da Mob é o azul turquesa. Porém, para alguns CTAs, adicionamos um amarelo de destaque. Por ser legível e ter uma família robusta, escolhemos a Open Sans como principal fonte.
             </p>
               <div>
               <img src={Mob2} alt="" />
@@ -57,7 +58,7 @@ export const Mob = () => {
            <div className="container__projchunk">
             <p>
               Começamos fazendo alguns rascunhos, no papel e em forma de wireframes. Discutimos desde o formato de apresentação das missões até o melhor formato para o Hero, até chegar em um conceito inicial. A partir daí, usei o boilerplate <a href="https://taniarascia.github.io/primitive/">Primitive</a> para começar o desenvolvimento do site. Defini as variáveis de cor e tipografia, e usei apenas HTML e CSS para criar um protótipo navegável. 
-              Fizemos várias iterações e experimentos até chegar em um MVP para divulgação.
+              Fizemos várias <strong>iterações e experimentos</strong> até chegar em um MVP para divulgação.
             </p>
           <img src={Mob3} alt="" />
           </div>
