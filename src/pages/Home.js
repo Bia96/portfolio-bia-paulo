@@ -4,6 +4,7 @@ import mob from "../assets/images/mob-hero-1.png";
 import brlcs from "../assets/images/brlcs-1.png";
 import ibm from "../assets/images/IBM4.jpg";
 import sbv from "../assets/images/sbv-3.jpg";
+import rex from "../assets/images/rex-6.jpg";
 
 
 import { Link } from "react-router-dom";
@@ -127,7 +128,7 @@ export const Home = () => {
                 <button>Ver projeto</button>
               </div>
             </div>
-          <img src={brlcs} alt="" />
+          <img src={rex} alt="" />
           </Link>
           </div> 
          
