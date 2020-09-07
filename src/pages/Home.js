@@ -6,7 +6,6 @@ import ibm from "../assets/images/IBM4.jpg";
 import sbv from "../assets/images/sbv-3.jpg";
 import rex from "../assets/images/rex-6.jpg";
 
-
 import { Link } from "react-router-dom";
 
 export const Home = () => {
@@ -26,28 +25,6 @@ export const Home = () => {
               Busco sempre entender bem as necessidades e desejos das pessoas
               para criar conceitos, gerar e testar ideias.
             </p>
-
-           {/* <nav>
-              <a className="" href="e-mail">
-                Email
-              </a>
-              <a
-                className=""
-                href="https://www.linkedin.com/in/bia-paulo/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                LinkedIn
-              </a>
-              <a
-                className=""
-                href="https://github.com/Bia96"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Github
-              </a>
-           </nav>*/}
           </div>
 
           <div className="right">
@@ -59,79 +36,70 @@ export const Home = () => {
       <section className="container">
         <h1 className="title-section">Projetos</h1>
         <div className="container__projects">
-          
-            <div className="project-card">
-              <Link to="/projeto-1">
-                <div className="card-blur">
-                  <div className="card-info">
-                    <h1>Mob Design</h1>
-                    <p>UI Design, HTML/CSS</p>
-                    <button>Ver projeto</button>
-                  </div>
-                </div>
-              <img src={mob} alt="" href="/projeto-1" />
-              </Link>
-            </div>
-          
-          
-        <div className="project-card">
-          
-              <Link to="/projeto-2">
+          <div className="project-card">
+            <Link to="/projeto-1">
               <div className="card-blur">
-                  <div className="card-info">
-                    <h1>Sketch-based UX</h1>
-                    <p>Ilustração, UX Design</p>
-                    <button>Ver projeto</button>
-                  </div>
+                <div className="card-info">
+                  <h1>Mob Design</h1>
+                  <p>UI Design, HTML/CSS</p>
+                  <button>Ver projeto</button>
                 </div>
-              <img src={sbv} alt="" />
-              </Link>
-          </div> 
-         
-          
-            <div className="project-card">
-              
-              <Link to="/projeto-3">
-              <div className="card-blur">
-                  <div className="card-info">
-                    <h1>Common Styles</h1>
-                    <p>UI Design, HTML/CSS</p>
-                    <button>Ver projeto</button>
-                  </div>
-                </div>
-              <img src={brlcs} alt="" />
-              </Link>
-            </div>
-          
-          
-            <div className="project-card">
-             
-              <Link to="/projeto-4">
-              <div className="card-blur">
-                  <div className="card-info">
-                    <h1>Subsurface Interpretation Advisor</h1>
-                    <p>UI Design, UX Design</p>
-                    <button>Ver projeto</button>
-                  </div>
-                </div>
-              <img src={ibm} alt="" />
-              </Link>
-            </div>
-
-           <div className="project-card">
-          
-            <Link to="/projeto-5">
-          <div className="card-blur">
-              <div className="card-info">
-                <h1>Research Experiences</h1>
-                <p>Ilustração, UX Design</p>
-                <button>Ver projeto</button>
               </div>
-            </div>
-          <img src={rex} alt="" />
-          </Link>
-          </div> 
-         
+              <img src={mob} alt="" href="/projeto-1" />
+            </Link>
+          </div>
+
+          <div className="project-card">
+            <Link to="/projeto-2">
+              <div className="card-blur">
+                <div className="card-info">
+                  <h1>Sketch-based UX</h1>
+                  <p>Ilustração, UX Design</p>
+                  <button>Ver projeto</button>
+                </div>
+              </div>
+              <img src={sbv} alt="" />
+            </Link>
+          </div>
+
+          <div className="project-card">
+            <Link to="/projeto-3">
+              <div className="card-blur">
+                <div className="card-info">
+                  <h1>Common Styles</h1>
+                  <p>UI Design, HTML/CSS</p>
+                  <button>Ver projeto</button>
+                </div>
+              </div>
+              <img src={brlcs} alt="" />
+            </Link>
+          </div>
+
+          <div className="project-card">
+            <Link to="/projeto-4">
+              <div className="card-blur">
+                <div className="card-info">
+                  <h1>Subsurface Interpretation Advisor</h1>
+                  <p>UI Design, UX Design</p>
+                  <button>Ver projeto</button>
+                </div>
+              </div>
+              <img src={ibm} alt="" />
+            </Link>
+          </div>
+
+          <div className="project-card">
+            <Link to="/projeto-5">
+              <div className="card-blur">
+                <div className="card-info">
+                  <h1>Research Experiences</h1>
+                  <p>Ilustração, UX Design</p>
+                  <button>Ver projeto</button>
+                </div>
+              </div>
+              <img src={rex} alt="" />
+            </Link>
+          </div>
         </div>
       </section>
       <section className="container container__experiences">
@@ -185,15 +153,17 @@ export const Home = () => {
         </div>
         <h1 className="contact-invite">Vamos conversar?</h1>
         <div className="button-container">
-
-          <a href="https://www.linkedin.com/in/bia-paulo/" target="_blank" rel="noreferrer noopener">
-          <button className="send-email" type="button">
-            Meu LinkedIn
-          </button>
+          <a
+            href="https://www.linkedin.com/in/bia-paulo/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <button className="send-email" type="button">
+              Meu LinkedIn
+            </button>
           </a>
           <p>Ou se preferir, mande um email: beatrizsandp@gmail.com</p>
         </div>
-        
       </section>
       <section className="container container__footer">
         <footer className="footer">
