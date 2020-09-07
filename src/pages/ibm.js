@@ -9,29 +9,33 @@ import { Link } from "react-router-dom";
 export const IBM = () => {
   return (
     <main className="main">
-
       <section className="container container__presentation">
         <div className="content">
           <div className="left">
             <h1>Subsurface Interpretation Advisor (SIA)</h1>
             <p>
-                O SIA é um projeto conjunto entre a IBM Research e a Galp Energia. O sistema é um advisor baseado em Inteligência Artificial para <strong>suportar decisões e análise de dados na indústria de petróleo e gás.</strong>
-                Nesse projeto, atuei como <strong>UI Designer e ajudei a facilitar workshops de design thinking.</strong> O maior desafio foi compreender
-                processos de tomada de decisão complexos e construir interfaces que suportem esses processos para os
-                usuários.
+              O SIA é um projeto conjunto entre a IBM Research e a Galp Energia.
+              O sistema é um advisor baseado em Inteligência Artificial para{" "}
+              <strong>
+                suportar decisões e análise de dados na indústria de petróleo e
+                gás.
+              </strong>
+              Nesse projeto, atuei como{" "}
+              <strong>
+                UI Designer e ajudei a facilitar workshops de design thinking.
+              </strong>{" "}
+              O maior desafio foi compreender processos de tomada de decisão
+              complexos e construir interfaces que suportem esses processos para
+              os usuários.
             </p>
-          </div> 
-
+          </div>
         </div>
-</section>
-
+      </section>
 
       <section className="container container__fullproject">
-
         <div className="content">
           <article>
             <section>
-            
               <h1>O problema</h1>
               <h2>
                 Estruturando e suportando decisões com AI na indústria de Óleo e
@@ -39,79 +43,97 @@ export const IBM = () => {
               </h2>
               <div className="container__projchunk">
                 <p>
-                  Nesse projeto, trabalhei junto com designers, desenvolvedores e
-                  especialistas para <strong>desenvolver interfaces e fluxos para projetos
-                  baseados em AI e Machine Learning</strong>. Aqui, o desafio foi traduzir processos complexos que agregam
-                  muitos dados em interfaces simples, intuitivas, que suportassem
-                  a interpretação mantendo a coerência e boa usabilidade. Um desses
-                  projetos foi o <strong>Subsurface Interpretation Advisor</strong>, desenvolvido
-                  em parceria com a empresa portuguesa Galp Energia.
-
-                
-                  Quando entrei na IBM como estagiária, o projeto estava na fase
-                  de implementação e iterações. Meu papel no time foi o de <strong>rever e
-                  melhorar fluxos que já existiam e integrá-los a features novas</strong>.
-                  Eu analisei entregáveis de UX como mapas de empatia e user
-                  journeys para extrair requisitos e ideias para protótipos de UI.
-                
-  
+                  Nesse projeto, trabalhei junto com designers, desenvolvedores
+                  e especialistas para{" "}
+                  <strong>
+                    desenvolver interfaces e fluxos para projetos baseados em AI
+                    e Machine Learning
+                  </strong>
+                  . Aqui, o desafio foi traduzir processos complexos que agregam
+                  muitos dados em interfaces simples, intuitivas, que
+                  suportassem a interpretação mantendo a coerência e boa
+                  usabilidade. Um desses projetos foi o{" "}
+                  <strong>Subsurface Interpretation Advisor</strong>,
+                  desenvolvido em parceria com a empresa portuguesa Galp
+                  Energia. Quando entrei na IBM como estagiária, o projeto
+                  estava na fase de implementação e iterações. Meu papel no time
+                  foi o de{" "}
+                  <strong>
+                    rever e melhorar fluxos que já existiam e integrá-los a
+                    features novas
+                  </strong>
+                  . Eu analisei entregáveis de UX como mapas de empatia e user
+                  journeys para extrair requisitos e ideias para protótipos de
+                  UI.
                 </p>
               </div>
 
               <div className="container__projchunk">
                 <div className="image">
-                    <img src={IBM1} alt="" />
-                    <p>Registros de alguns workshops de descoberta de jornada do usuário e mapa de empatia que ajudei a facilitar.
-                      Nesses workshops, nosso maior objetivo foi estruturar e detalhar o processo de decisão dos geólogos e geofísicos.
-                    </p>
-                </div>
-              </div>
-
-              <div className="container__projchunk">
-
+                  <img src={IBM1} alt="" />
                   <p>
-                  Meu processo começava
-                  estruturando os insights da fase de User Research em
-                  <strong>intenções, prioridades e necessidades</strong>. Usei essas direções para fazer conceitos
-                  rápidos em protótipos de papel ou no quadro. Dessa forma,
-                  conseguia rapidamente <strong>validar os conceitos</strong> com o time antes de
-                  investir tempo em um protótipo complexo de alta fidelidade.
+                    Registros de alguns workshops de descoberta de jornada do
+                    usuário e mapa de empatia que ajudei a facilitar. Nesses
+                    workshops, nosso maior objetivo foi estruturar e detalhar o
+                    processo de decisão dos geólogos e geofísicos.
                   </p>
-          
-                  <img src={IBM2} alt="" />
-              
+                </div>
               </div>
 
               <div className="container__projchunk">
                 <p>
-                Quando sei que estamos no caminho certo, começo a experimentar
-                    com os componentes de UI que já eram usados em outras partes do
-                    projeto. Como essa aplicação já estava implementada, precisei
-                    considerar tudo que já era feito de linguagem visual e código
-                    antes de criar as telas. Usei o <strong>Sketch e libraries de estilo</strong>
-                    para fazer protótipos de alta fidelidade, e participei junto aos
-                    desenvolvedores front-end das implementações em HTML e CSS. Como os projetos B2B que participei estão
-                    protegidos por NDAs e/ou em fase inicial, não é possível mostrar os conceitos implementados - mas você pode ver mais sobre eles <a href="https://www.ibm.com/blogs/ibm-comunica/ibm-desvenda-uso-da-ia-no-setor-de-energia-na-rio-oil-gas-2018/">aqui </a>  
-                     e <a href="https://www.galp.com/corp/pt/media/comunicados-de-imprensa/comunicado/id/834">aqui.</a>
+                  Meu processo começava estruturando os insights da fase de User
+                  Research em
+                  <strong>intenções, prioridades e necessidades</strong>. Usei
+                  essas direções para fazer conceitos rápidos em protótipos de
+                  papel ou no quadro. Dessa forma, conseguia rapidamente{" "}
+                  <strong>validar os conceitos</strong> com o time antes de
+                  investir tempo em um protótipo complexo de alta fidelidade.
+                </p>
+
+                <img src={IBM2} alt="" />
+              </div>
+
+              <div className="container__projchunk">
+                <p>
+                  Quando sei que estamos no caminho certo, começo a experimentar
+                  com os componentes de UI que já eram usados em outras partes
+                  do projeto. Como essa aplicação já estava implementada,
+                  precisei considerar tudo que já era feito de linguagem visual
+                  e código antes de criar as telas. Usei o{" "}
+                  <strong>Sketch e libraries de estilo</strong>
+                  para fazer protótipos de alta fidelidade, e participei junto
+                  aos desenvolvedores front-end das implementações em HTML e
+                  CSS. Como os projetos B2B que participei estão protegidos por
+                  NDAs e/ou em fase inicial, não é possível mostrar os conceitos
+                  implementados - mas você pode ver mais sobre eles{" "}
+                  <a href="https://www.ibm.com/blogs/ibm-comunica/ibm-desvenda-uso-da-ia-no-setor-de-energia-na-rio-oil-gas-2018/">
+                    aqui{" "}
+                  </a>
+                  e{" "}
+                  <a href="https://www.galp.com/corp/pt/media/comunicados-de-imprensa/comunicado/id/834">
+                    aqui.
+                  </a>
                 </p>
               </div>
 
               <div className="container__projchunk">
                 <div className="image">
-                    <img src={IBM4} alt="" />
-                    <p>
-                      Evolução de um rascunho no papel para um protótipo em uma feature do SIA. Protótipos e rascunhos no papel são uma parte importante do meu processo,
-                      porque acredito que são mais fáceis de modificar e validar no momento das primeiras ideias.
-                    </p>
+                  <img src={IBM4} alt="" />
+                  <p>
+                    Evolução de um rascunho no papel para um protótipo em uma
+                    feature do SIA. Protótipos e rascunhos no papel são uma
+                    parte importante do meu processo, porque acredito que são
+                    mais fáceis de modificar e validar no momento das primeiras
+                    ideias.
+                  </p>
                 </div>
               </div>
+            </section>
+          </article>
+        </div>
 
-      </section>
-      </article>
-      </div>
-     
         <div className="button-container">
-          
           <Link to="/">
             <button className="ghost-button" type="button">
               Página inicial
@@ -164,7 +186,14 @@ export const IBM = () => {
               </li>
               <li>
                 <p>
-                  Desenvolvido por Beatriz de Paulo e <br /> Leonardo Gonçalves
+                  Desenvolvido por Beatriz de Paulo e <br />{" "}
+                  <a
+                    href="https://github.com/leogoncalves"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Leonardo Gonçalves
+                  </a>
                 </p>
               </li>
             </ul>

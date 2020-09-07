@@ -209,7 +209,14 @@ export const Home = () => {
               </li>
               <li>
                 <p>
-                  Desenvolvido por Beatriz de Paulo e <br /> Leonardo Gonçalves
+                  Desenvolvido por Beatriz de Paulo e <br />
+                  <a
+                    href="https://github.com/leogoncalves"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Leonardo Gonçalves
+                  </a>
                 </p>
               </li>
             </ul>
