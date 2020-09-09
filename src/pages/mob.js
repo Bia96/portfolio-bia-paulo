@@ -97,6 +97,16 @@ export const Mob = () => {
               <div className="container__projchunk full">
                 <img clasName="full" src={Mob4} alt="" />
               </div>
+              <p>
+                Ilustrações vetoriais por{" "}
+                <a
+                  href="https://www.behance.net/shirleysantosps"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Shirley Santos
+                </a>
+              </p>
             </section>
           </article>
         </div>
