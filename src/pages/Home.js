@@ -37,15 +37,15 @@ export const Home = () => {
         <h1 className="title-section">Projetos</h1>
         <div className="container__projects">
           <div className="project-card">
-            <Link to="/projeto-1">
+            <Link to="/projeto-5">
               <div className="card-blur">
                 <div className="card-info">
-                  <h1>Mob Design</h1>
-                  <p>UI Design, HTML/CSS</p>
+                  <h1>Research Experiences</h1>
+                  <p>Ilustração, UX Design, UX Research, UI Design</p>
                   <button>Ver projeto</button>
                 </div>
               </div>
-              <img src={mob} alt="" href="/projeto-1" />
+              <img src={rex} alt="" />
             </Link>
           </div>
 
@@ -63,6 +63,18 @@ export const Home = () => {
           </div>
 
           <div className="project-card">
+            <Link to="/projeto-4">
+              <div className="card-blur">
+                <div className="card-info">
+                  <h1>Subsurface Interpretation Advisor</h1>
+                  <p>UI Design, UX Design</p>
+                  <button>Ver projeto</button>
+                </div>
+              </div>
+              <img src={ibm} alt="" />
+            </Link>
+          </div>
+          <div className="project-card">
             <Link to="/projeto-3">
               <div className="card-blur">
                 <div className="card-info">
@@ -76,28 +88,15 @@ export const Home = () => {
           </div>
 
           <div className="project-card">
-            <Link to="/projeto-4">
+            <Link to="/projeto-1">
               <div className="card-blur">
                 <div className="card-info">
-                  <h1>Subsurface Interpretation Advisor</h1>
-                  <p>UI Design, UX Design</p>
+                  <h1>Mob Design</h1>
+                  <p>UI Design, HTML/CSS</p>
                   <button>Ver projeto</button>
                 </div>
               </div>
-              <img src={ibm} alt="" />
-            </Link>
-          </div>
-
-          <div className="project-card">
-            <Link to="/projeto-5">
-              <div className="card-blur">
-                <div className="card-info">
-                  <h1>Research Experiences</h1>
-                  <p>Ilustração, UX Design</p>
-                  <button>Ver projeto</button>
-                </div>
-              </div>
-              <img src={rex} alt="" />
+              <img src={mob} alt="" href="/projeto-1" />
             </Link>
           </div>
         </div>
